@@ -1,0 +1,978 @@
+:root {
+  --standard: #378BE5;
+}
+
+
+#separator {
+	border-bottom: 1px solid #378BE5;
+}
+
+
+/* collors crypto currencies */
+
+#color-xmr {
+	color: #FF7000;
+}
+
+#color-btc {
+	color: #FFAD00;
+}
+
+#color-ltc {
+	color: #C0C0C0;
+}
+
+
+/* special collors */
+
+#pastel-green {
+	color: #84F19D;
+}
+
+#pastel-yellow {
+	color: #FDF241;
+}
+
+
+/* MPP font size */
+
+@media (max-width: 450px) {
+	#mpp {
+		font-size: 80%;
+	}
+}
+
+
+/* bordered tables */
+
+.table-bordered-standard {
+	border: 1px solid #378BE5;
+}
+
+
+.table-bordered-standard th {
+	border-right: 1px solid white;
+	background: #378BE5;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+}
+
+.table-bordered-standard td {
+	border: 1px solid #378BE5;
+}
+
+.table-bordered-lavender {
+	border: 1px solid #9237E5;
+}
+
+
+.table-bordered-lavender th {
+	border-right: 1px solid white;
+	background: #9237E5;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+}
+
+.table-bordered-lavender td {
+	border: 1px solid #9237E5;
+}
+
+.table-bordered-mallow {
+	border: 1px solid #E537AF;
+}
+
+
+.table-bordered-mallow th {
+	border-right: 1px solid white;
+	background: #E537AF;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+}
+
+.table-bordered-mallow td {
+	border: 1px solid #E537AF;
+}
+
+.table-bordered-hibis {
+	border: 1px solid #E53756;
+}
+
+
+.table-bordered-hibis th {
+	border-right: 1px solid white;
+	background: #E53756;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+}
+
+.table-bordered-hibis td {
+	border: 1px solid #E53756;
+}
+
+.table-bordered-secondary {
+	border: 1px solid #6c757d;
+}
+
+
+.table-bordered-secondary th {
+	border-right: 1px solid white;
+	background: #6c757d;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+}
+
+.table-bordered-secondary td {
+	border: 1px solid #6c757d;
+}
+
+.table-bordered-dark-gray {
+	border: 1px solid #343a40;
+}
+
+
+.table-bordered-dark-gray th {
+	border-right: 1px solid white;
+	background: #343a40;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+}
+
+.table-bordered-dark-gray td {
+	border: 1px solid #343a40;
+}
+
+.table-bordered-positive {
+	border: 1px solid #28a745;
+}
+
+
+.table-bordered-positive th {
+	border-right: 1px solid white;
+	background: #28a745;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+}
+
+.table-bordered-positive td {
+	border: 1px solid #28a745;
+}
+
+.table-bordered-neutral {
+	border: 1px solid #007bff;
+}
+
+
+.table-bordered-neutral th {
+	border-right: 1px solid white;
+	background: #007bff;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+}
+
+.table-bordered-neutral td {
+	border: 1px solid #007bff;
+}
+
+.table-bordered-negative {
+	border: 1px solid #dc3545;
+}
+
+
+.table-bordered-negative th {
+	border-right: 1px solid white;
+	background: #dc3545;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+}
+
+.table-bordered-negative td {
+	border: 1px solid #dc3545;
+}
+
+
+/* buttons crypto currencies */
+
+.btn-xmr {
+	text-align: center;
+	user-select: none;
+	border: 1px solid transparent;
+	font-size: 1rem;
+	color: #fff;
+	background-color: #FF7000;
+	border-color: #DC610E;
+}
+
+.btn-xmr:hover {
+	text-decoration: none;
+}
+
+.btn-xmr button {
+	padding: 13px 15px;
+	line-height: 16px;
+	font-weight: 500;
+	-webkit-transition: all 0.3s ease 0s;
+	-webkit-border-radius: 0px;
+}
+
+.btn-xmr-block {
+	display: block;
+	width: 100%;
+}
+
+.btn-xmr-primary:hover {
+	color: #fff;
+	background-color: #DC610E;
+	border-color: #CD5D10;
+}
+
+.btn-btc {
+	text-align: center;
+	user-select: none;
+	border: 1px solid transparent;
+	font-size: 1rem;
+	color: #fff;
+	background-color: #FFAD00;
+	border-color: #E49C05;
+}
+
+.btn-btc:hover {
+	text-decoration: none;
+}
+
+.btn-btc button {
+	padding: 13px 15px;
+	line-height: 16px;
+	font-weight: 500;
+	-webkit-transition: all 0.3s ease 0s;
+	-webkit-border-radius: 0px;
+}
+
+.btn-btc-block {
+	display: block;
+	width: 100%;
+}
+
+.btn-btc-primary:hover {
+	color: #fff;
+	background-color: #E49C05;
+	border-color: #CF9824;
+}
+
+.btn-ltc {
+	text-align: center;
+	user-select: none;
+	border: 1px solid transparent;
+	font-size: 1rem;
+	color: #fff;
+	background-color: #C0C0C0;
+	border-color: #A09D9D;
+}
+
+.btn-ltc:hover {
+	text-decoration: none;
+}
+
+.btn-ltc button {
+	padding: 13px 15px;
+	line-height: 16px;
+	font-weight: 500;
+	-webkit-transition: all 0.3s ease 0s;
+	-webkit-border-radius: 0px;
+}
+
+.btn-ltc-block {
+	display: block;
+	width: 100%;
+}
+
+.btn-ltc-primary:hover {
+	color: #fff;
+	background-color: #A09D9D;
+	border-color: #7B7B7B;
+}
+
+
+/* header top_guest */
+
+@media (max-width: 370px) {
+	.top-guest {
+		font-size: 85%;
+	}
+}
+
+
+/* main header exchange rates + balance wallets */
+
+#borderHead {
+	border-right: 1px solid white;
+}
+
+@media (max-width: 992px) {
+	#exchange {
+		display: block;
+		float: left;
+		width: 55%;
+	}
+	#exchange div {
+		border-right: 1px solid white;
+	}
+	#balance {
+		display: block;
+		margin-left: 51%;
+		padding-left: 10px;
+	}
+	#borderHead {
+	border-right: none;
+	}
+}
+
+@media (max-width: 370px) {
+	#exchange {
+		display: block;
+		float: left;
+		width: 60%;
+		margin-left: -9%;
+		font-size: 80%;
+	}
+	#exchange div {
+		border-right: 1px solid white;
+	}
+	#balance {
+		display: block;
+		margin-left: 45.5%;
+		padding-left: 10px;
+		font-size: 80%;
+	}
+	#borderHead {
+	border-right: none;
+	}
+	#top-cust-lang {
+		font-size: 80%;
+	}
+}
+
+@media (max-width: 992px) {
+	#fon-size {
+		font-size: 85%;
+	}
+}
+
+
+/*info unfold + collapse downward*/
+	
+#menuShowHide_down {
+	position: absolute;
+	left: -999em;
+}
+
+#down {
+	display: none;
+	overflow: hidden; /* wrap floats and margins */
+	list-style: none;
+	margin-top: -1.8em;
+	margin-bottom: 0.2em;
+	background: #378BE5;
+}
+
+#down div {
+	display:inline;
+}
+
+#down: active,
+#down: focus, {
+	background: ;
+}
+
+
+#menuShowHide_down + label:before {
+	content: "Info ▼";
+	width: ;
+}
+
+#menuShowHide_down:checked + label:before {
+	content: "Info ▲";
+	width: ;
+}
+
+#menuShowHide_down:checked ~ #down {
+	display: block;
+}
+
+#menuShowHide_down + label {
+	display: block;
+	width: 200px;
+	padding: 0em 0em 0.2em 0.5em;
+	text-align: left;
+	font-weight: light;
+	background: #378BE5;
+	color: white;
+	margin-top: -0.2rem;
+	margin-left: -0.9rem;
+}
+
+#menuShowHide_down + label:active,
+#menuShowHide_down + label:focus,
+#menuShowHide_down + label:hover {
+	background: ;
+}
+
+#menuShowHide_down + label:before {
+	content: "Info ▼";
+}
+
+#menuShowHide_down:checked + label {
+	margin-top: -0.2rem;
+	margin-left: -0.9rem;
+}
+
+#menuShowHide_down:checked + label:before {
+	content: "Info ▲";
+}
+
+#menuShowHide_down:checked ~ #down {
+	display: block;
+}
+
+
+
+/*header menu Show Menu + Hide Menu*/
+
+#menuShowHide {
+	position: absolute;
+	left: -999em;
+}
+
+#mainMenu {
+	list-style: none;
+	text-align: center;
+	margin-top: -1.4em;
+	margin-bottom: 0.2em;
+	background: #378BE5;
+	border-bottom: 5px solid white;
+}
+
+#mainMenu div {
+	display: inline;
+}
+
+#mainMenu a {
+	display: inline-block;
+	padding: 0.25em 1em;
+	text-decoration: ;
+}
+
+#mainMenu a: active,
+#mainMenu a: focus {
+	background: ;
+}
+
+#menuShowHide + label {
+	display: inline;
+	color: transparent;
+}
+
+@media (max-width: 990px) {
+	#mainMenu {
+		display: none;
+		overflow: hidden; /* wrap floats and margins */
+		padding: 0em;
+		margin-top: -0.5em;
+		border-bottom: 1px solid white;
+	}
+
+	#menuShowHide + label:before {
+		content:"Show menu";
+		height: 50px;
+	}
+
+	#menuShowHide:checked + label:before {
+		content:"Hide Menu";
+		height: 15px;
+	}
+
+	#menuShowHide:checked ~ #mainMenu {
+		display: block;
+	}
+
+	#mainMenu div {
+		float: left;
+		width: 50%;
+	}
+
+	#mainMenu a {
+		display: block;
+		padding: 0em;
+		margin: 0.1em;
+		background: ;
+	}
+
+	#menuShowHide + label {
+		display: block;
+		padding: 0em 0em 0.2em 0.5em;
+		text-align: left;
+		font-weight: light;
+		background: #378BE5;
+		color: white;
+		border-bottom: 1px solid white;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	#menuShowHide + label:active,
+	#menuShowHide + label:focus,
+	#menuShowHide + label:hover {
+		background: ;
+	}
+
+	#menuShowHide + label:before {
+		content:"Show Menu";
+	}
+
+	#menuShowHide:checked + label {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	#menuShowHide:checked + label:before {
+		content:"Hide Menu";
+	}
+
+	#menuShowHide:checked ~ #mainMenu {
+		display: block;
+	}
+}
+
+
+/* Admin header menu Show Menu + Hide Menu*/
+
+#menuShowHideAdmin {
+	position: absolute;
+	left: -999em;
+}
+
+#mainMenuAdmin {
+	list-style: none;
+	text-align: center;
+	margin-top: -1.7em;
+	margin-bottom: 0.2em;
+	background: #7F7F7F;
+}
+
+#mainMenuAdmin div {
+	display: inline;
+}
+
+#mainMenuAdmin a {
+	display: inline-block;
+	padding: 0.25em 1em;
+	text-decoration: ;
+}
+
+#mainMenuAdmin a: active,
+#mainMenuAdmin a: focus {
+	background: ;
+}
+
+#menuShowHideAdmin + label {
+	display: inline;
+	color: transparent;
+}
+
+@media (max-width: 990px) {
+	#mainMenuAdmin {
+		display: none;
+		overflow: hidden; /* wrap floats and margins */
+		padding: 0em;
+		margin-top: -0.5em;
+		border-top: 1px solid white;
+	}
+
+	#menuShowHideAdmin:checked ~ #mainMenuAdmin {
+		display: block;
+	}
+
+	#mainMenuAdmin div {
+		float: left;
+		width: 50%;
+	}
+
+	#mainMenuAdmin a {
+		display: block;
+		padding: 0em;
+		margin: 0.1em;
+		background: ;
+	}
+
+	#menuShowHideAdmin + label {
+		display: block;
+		padding: 0em 0em 0.2em 0.5em;
+		text-align: left;
+		font-weight: light;
+		background: #7F7F7F;
+		color: white;
+		border-top: 1px solid white;
+		margin-top: -0.5rem;
+		margin-left: -0.9rem;
+		margin-right: -0.9rem;
+	}
+
+	#menuShowHideAdmin + label:active,
+	#menuShowHideAdmin + label:focus,
+	#menuShowHideAdmin + label:hover {
+		background: ;
+	}
+
+	#menuShowHideAdmin + label:before {
+		content:"Open Admin Menu";
+	}
+
+	#menuShowHideAdmin:checked + label {
+		padding: 0em 0em 0.2em 0.5em;
+		margin-top: -0.5rem;
+		margin-left: -0.9rem;
+		margin-right: -0.9rem;
+	}
+
+	#menuShowHideAdmin:checked + label:before {
+		content:"Close Admin Menu";
+	}
+
+	#menuShowHideAdmin:checked ~ #mainMenuAdmin {
+		display: block;
+	}
+}
+
+
+/*categories unfold + collapse downward*/
+				
+#catShowHide_down {
+	position: absolute;
+	left: -999em;
+}
+
+#cat_down {
+	display: none;
+	width: 100%;
+	overflow: hidden; /* wrap floats and margins */
+	list-style: none;
+	margin-top: -1em;
+	margin-bottom: 0.2em;
+	margin-left: -0.9em;
+	padding-left: 1em;
+	padding-bottom: 0.4em;
+	background: white;
+	color: #495057;
+	border-left: 1px solid #ced4da;
+	border-right: 1px solid #ced4da;
+	border-bottom: 1px solid #ced4da;
+	border-radius: 0 0 4px 4px;
+}
+
+#cat_down div {
+	display:inline;
+}
+
+#cat_down a:hover {
+	text-decoration: none;
+}
+
+#catShowHide_down:checked ~ #cat_down {
+	display: block;
+}
+
+#catShowHide_down + label {
+	display: block;
+	width: 100%;
+	height: 37px;
+	padding: 0.2em 0em 0.2em 0.5em;
+	text-align: left;
+	background: white;
+	color: #495057;
+	border: 1px solid #ced4da;
+	border-radius: 4px;
+	margin-top: -0.2em;
+	margin-left: -0.9em;
+}
+
+@media (max-width: 990px) {
+	#cat_down {
+		font-size: 80%;
+		margin-left: -1.15em
+	}
+}
+
+
+
+/*search options unfold + collapse downward*/
+				
+#searchShowHide_down {
+	position:absolute;
+	left:-999em;
+}
+
+#search_down {
+	list-style: none;
+}
+
+#search_down div {
+	display:inline;
+}
+
+#search_down {
+	display: none;
+	overflow: hidden; /* wrap floats and margins */
+}
+			
+#searchShowHide_down + label:before {
+	content:"search options ▼";
+	color: #378BE5;
+}
+
+#searchShowHide_down:checked + label:before {
+	content:"search options ▲";
+	color: #378BE5;
+}
+
+#searchShowHide_down:checked ~ #search_down {
+	display:block;
+}
+	
+#from, #till {
+	font-size: 90%;
+}
+
+
+
+/* homepage */
+
+#frame_standard {
+	border: 1px solid #378BE5;
+	padding: 0.5rem;
+}
+
+#hyphen {
+	border-bottom: 1px solid #378BE5;
+}
+
+
+/* sub menu on subpages */
+
+#subMenu {
+	text-align: center;
+	background: #378BE5;
+}
+
+#borderPageHeader {
+	border-right: 1px solid white;
+}
+
+#borderPageHeaderFirstLineFirstRow, #borderPageHeaderFirstLineSecondRow, #borderPageHeaderSecondLineFirstRow, #borderPageHeaderSecondLineSecondRow {
+	border-right: 1px solid white;
+}
+
+@media (max-width: 760px) {
+	#borderPageHeaderFirstLineFirstRow {
+		border-right: 1px solid white;
+		border-bottom: 1px solid white;
+		padding-top: 0px;
+		padding-bottom: 5px;
+	}
+
+	#borderPageHeaderFirstLineSecondRow {
+		border-right: none;
+		border-bottom: 1px solid white;
+		padding-top: 0px;
+		padding-bottom: 5px;
+	}
+
+	#borderPageHeaderSecondLineFirstRow {
+		border-right: 1px solid white;
+		border-bottom: 1px solid white;
+		padding-top: 0px;
+		padding-bottom: 5px;
+	}
+
+	#borderPageHeaderSecondLineSecondRow {
+		border-right: none;
+		border-bottom: 1px solid white;
+		padding-top: 0px;
+		padding-bottom: 5px;
+	}
+
+	#borderPageHeaderThirdLine {
+		border-right: none;
+		border-bottom: none;
+		padding-top: 0px;
+		padding-bottom: 5px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media (max-width: 992px) {
+	#subMenu div {
+		float: left;
+		width: 50%;
+	}
+
+	#subMenu a {
+		display: block;
+		padding: 0em;
+		margin: 0.1em;
+		background: ;
+	}
+}
+
+
+/* custom badges */
+
+.badge-order {
+	color: #00D200;
+	background-color: #f8f9fa;
+}
+
+.badge-dispute {
+	color: #FF0000;
+	background-color: #f8f9fa;
+}
+
+
+/* decoration buttons */
+
+.deco-btn {
+  display: inline-block;
+  height: 1.8rem;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.18rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.18rem;
+}
+
+.deco-btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.deco-btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.deco-btn-success {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.deco-btn-info {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.deco-btn-warning {
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.deco-btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.deco-btn-light {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.deco-btn-dark {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+
+/* wallets transaction + withdrawal history tables */
+
+.table-bordered-wallet-in {
+	border: 1px solid #c3e6cb;
+}
+
+.table-bordered-wallet-out {
+	border: 1px solid #FFDD77;
+}
+
+.table-bordered-wallet-in th {
+	border-right: 1px solid white;
+	background: #c3e6cb;
+	color: white;
+	text-align: center;
+}
+
+.table-bordered-wallet-out th {
+	border-right: 1px solid white;
+	background: #FFDD77;
+	color: white;
+	text-align: center;
+}
+
+.table-bordered-wallet-in td {
+	border: 1px solid #c3e6cb;
+}
+
+.table-bordered-wallet-out td {
+	border: 1px solid #FFDD77;
+}
+
+@media (min-width: 992px) {
+.table-bordered-wallet-in td {
+	word-break: break-all;
+	}
+
+.table-bordered-wallet-out td {
+	word-break: break-all;
+	}
+}
+
+
+/* marketplace item boxes */
+
+#item_box {
+	width: 32%;
+	}
+	
+@media (max-width: 992px) {
+#item_box {
+	min-width: 100%;
+	}
+}
+
+/* pagination box */
+
+.pagination_box {
+	border: 1px solid silver;
+	padding: 0 5px 0 5px;
+	margin: 0 1.5px 0 1.5px;
+	border-radius: 5px;
+	box-shadow: 1px 2px #888888;
+}

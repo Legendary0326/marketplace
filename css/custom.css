@@ -1,0 +1,76 @@
+.dropbtn {
+	color: white;
+	padding: 8px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	
+}
+.btn, button {
+	padding: 13px 15px;
+	line-height: 16px;
+	font-weight: 500;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-o-border-radius: 0px;
+	color: white;
+}
+.dropbtnMenu.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropbtnMenu .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropbtnMenu .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.top-link ul li:last-child a {
+	border-right: none;
+	padding-right: 0px !important;
+}
+.dropbtnMenu .dropdown-content a:hover {
+	background-color: #008ee1;
+}
+.menu-top {
+	background-color: #008ee1;
+}
+.menu-buttons div {
+	background-color: #008ee1;
+	margin: 3px 2px 0px 0px;
+}
+.menu-buttons div:last-child {
+	margin-right: 0px;
+}
+.ratingButtons {
+	display: inline-block;
+}
+.ratingButtons * {
+	float: right;
+}
+.ratingButtons input {
+	display: none;
+}
+.ratingButtons label {
+	color: #C0C0C0;
+	margin-left: 5px;
+	margin-bottom: 0px;
+}
+.ratingButtons label:last-child {
+	margin-left: 0px;
+}
+.ratingButtons input:checked ~ label {
+	color: #FFE700;
+}

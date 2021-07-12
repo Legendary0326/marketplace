@@ -1,0 +1,628 @@
+ErrNo: 2
+ErrStr: file_put_contents(D:\xampp\htdocs\marketplace/cache/en_2e529112e88b4b24f15f303fcbd1c5f8.php): failed to open stream: No such file or directory
+ErrFile: D:\xampp\htdocs\marketplace\libs\Language.php
+<b>REALFILE:</b> D:\xampp\htdocs\marketplace/pages/login.php
+ErrLine: 61
+
+GLOBALS:
+array(16) {
+  ["_GET"]=>
+  array(0) {
+  }
+  ["_POST"]=>
+  array(0) {
+  }
+  ["_COOKIE"]=>
+  array(1) {
+    ["PHPSESSID"]=>
+    string(26) "r4kva6j8ddu9f1f08rqenednr5"
+  }
+  ["_FILES"]=>
+  array(0) {
+  }
+  ["Libs"]=>
+  object(Libs)#1 (2) {
+    ["path":"Libs":private]=>
+    string(33) "D:\xampp\htdocs\marketplace/libs/"
+    ["libs_loaded":"Libs":private]=>
+    array(22) {
+      ["MiscFunctions"]=>
+      bool(true)
+      ["MySQLiExt"]=>
+      bool(true)
+      ["HTMLHead"]=>
+      bool(true)
+      ["HTMLFoot"]=>
+      bool(true)
+      ["User"]=>
+      bool(true)
+      ["Language"]=>
+      bool(true)
+      ["Currencies"]=>
+      bool(true)
+      ["Forms"]=>
+      bool(true)
+      ["Password"]=>
+      bool(true)
+      ["Captcha"]=>
+      bool(true)
+      ["Alerts"]=>
+      bool(true)
+      ["Categories"]=>
+      bool(true)
+      ["Status"]=>
+      bool(true)
+      ["Market"]=>
+      bool(true)
+      ["Messages"]=>
+      bool(true)
+      ["gpg"]=>
+      bool(true)
+      ["Pagination"]=>
+      bool(true)
+      ["BTC"]=>
+      bool(true)
+      ["LTC"]=>
+      bool(true)
+      ["XMR"]=>
+      bool(true)
+      ["AccountSupport"]=>
+      bool(true)
+      ["Ranking"]=>
+      bool(true)
+    }
+  }
+  ["DB"]=>
+  &object(MySQLiExt)#3 (18) {
+    ["affected_rows"]=>
+    int(1)
+    ["client_info"]=>
+    string(13) "mysqlnd 7.4.9"
+    ["client_version"]=>
+    int(70409)
+    ["connect_errno"]=>
+    int(0)
+    ["connect_error"]=>
+    NULL
+    ["errno"]=>
+    int(0)
+    ["error"]=>
+    string(0) ""
+    ["error_list"]=>
+    array(0) {
+    }
+    ["field_count"]=>
+    int(4)
+    ["host_info"]=>
+    string(20) "127.0.0.1 via TCP/IP"
+    ["info"]=>
+    NULL
+    ["insert_id"]=>
+    int(0)
+    ["server_info"]=>
+    string(21) "5.5.5-10.4.14-MariaDB"
+    ["server_version"]=>
+    int(100414)
+    ["sqlstate"]=>
+    string(5) "00000"
+    ["protocol_version"]=>
+    int(10)
+    ["thread_id"]=>
+    int(82)
+    ["warning_count"]=>
+    int(0)
+  }
+  ["HTMLHead"]=>
+  &object(HTMLHead)#4 (3) {
+    ["path":"HTMLHead":private]=>
+    string(32) "D:\xampp\htdocs\marketplace/nav/"
+    ["nav":"HTMLHead":private]=>
+    string(9) "top_guest"
+    ["additionalNavs":"HTMLHead":private]=>
+    array(0) {
+    }
+  }
+  ["HTMLFoot"]=>
+  &object(HTMLFoot)#5 (2) {
+    ["path":"HTMLFoot":private]=>
+    string(33) "D:\xampp\htdocs\marketplace/foot/"
+    ["foot":"HTMLFoot":private]=>
+    string(6) "normal"
+  }
+  ["User"]=>
+  &object(User)#6 (12) {
+    ["cookie":protected]=>
+    bool(false)
+    ["cookie_name":protected]=>
+    string(11) "marketplace"
+    ["cookie_value":protected]=>
+    array(0) {
+    }
+    ["Name":protected]=>
+    string(0) ""
+    ["Data":protected]=>
+    array(0) {
+    }
+    ["Username":protected]=>
+    NULL
+    ["Registered":protected]=>
+    NULL
+    ["UserID":protected]=>
+    NULL
+    ["Currency":protected]=>
+    NULL
+    ["reason":protected]=>
+    NULL
+    ["twoFA":protected]=>
+    bool(false)
+    ["OtherUserData":protected]=>
+    array(0) {
+    }
+  }
+  ["Language"]=>
+  &object(Language)#7 (2) {
+    ["path_cache":"Language":private]=>
+    string(34) "D:\xampp\htdocs\marketplace/cache/"
+    ["language":"Language":private]=>
+    string(2) "en"
+  }
+  ["Pages"]=>
+  &object(Pages)#2 (8) {
+    ["path":"Pages":private]=>
+    string(34) "D:\xampp\htdocs\marketplace/pages/"
+    ["error_path":"Pages":private]=>
+    string(40) "D:\xampp\htdocs\marketplace/error_pages/"
+    ["uri_page":"Pages":private]=>
+    string(5) "login"
+    ["uri_realpath":"Pages":private]=>
+    string(6) "/login"
+    ["uri_path":"Pages":private]=>
+    array(0) {
+    }
+    ["uri_query":"Pages":private]=>
+    string(0) ""
+    ["suppress_html":"Pages":private]=>
+    bool(false)
+    ["layout":"Pages":private]=>
+    string(0) ""
+  }
+  ["_SESSION"]=>
+  &array(1) {
+    ["Language"]=>
+    string(2) "en"
+  }
+  ["GLOBALS"]=>
+  array(16) {
+    ["_GET"]=>
+    array(0) {
+    }
+    ["_POST"]=>
+    array(0) {
+    }
+    ["_COOKIE"]=>
+    array(1) {
+      ["PHPSESSID"]=>
+      string(26) "r4kva6j8ddu9f1f08rqenednr5"
+    }
+    ["_FILES"]=>
+    array(0) {
+    }
+    ["Libs"]=>
+    object(Libs)#1 (2) {
+      ["path":"Libs":private]=>
+      string(33) "D:\xampp\htdocs\marketplace/libs/"
+      ["libs_loaded":"Libs":private]=>
+      array(22) {
+        ["MiscFunctions"]=>
+        bool(true)
+        ["MySQLiExt"]=>
+        bool(true)
+        ["HTMLHead"]=>
+        bool(true)
+        ["HTMLFoot"]=>
+        bool(true)
+        ["User"]=>
+        bool(true)
+        ["Language"]=>
+        bool(true)
+        ["Currencies"]=>
+        bool(true)
+        ["Forms"]=>
+        bool(true)
+        ["Password"]=>
+        bool(true)
+        ["Captcha"]=>
+        bool(true)
+        ["Alerts"]=>
+        bool(true)
+        ["Categories"]=>
+        bool(true)
+        ["Status"]=>
+        bool(true)
+        ["Market"]=>
+        bool(true)
+        ["Messages"]=>
+        bool(true)
+        ["gpg"]=>
+        bool(true)
+        ["Pagination"]=>
+        bool(true)
+        ["BTC"]=>
+        bool(true)
+        ["LTC"]=>
+        bool(true)
+        ["XMR"]=>
+        bool(true)
+        ["AccountSupport"]=>
+        bool(true)
+        ["Ranking"]=>
+        bool(true)
+      }
+    }
+    ["DB"]=>
+    &object(MySQLiExt)#3 (18) {
+      ["affected_rows"]=>
+      int(1)
+      ["client_info"]=>
+      string(13) "mysqlnd 7.4.9"
+      ["client_version"]=>
+      int(70409)
+      ["connect_errno"]=>
+      int(0)
+      ["connect_error"]=>
+      NULL
+      ["errno"]=>
+      int(0)
+      ["error"]=>
+      string(0) ""
+      ["error_list"]=>
+      array(0) {
+      }
+      ["field_count"]=>
+      int(4)
+      ["host_info"]=>
+      string(20) "127.0.0.1 via TCP/IP"
+      ["info"]=>
+      NULL
+      ["insert_id"]=>
+      int(0)
+      ["server_info"]=>
+      string(21) "5.5.5-10.4.14-MariaDB"
+      ["server_version"]=>
+      int(100414)
+      ["sqlstate"]=>
+      string(5) "00000"
+      ["protocol_version"]=>
+      int(10)
+      ["thread_id"]=>
+      int(82)
+      ["warning_count"]=>
+      int(0)
+    }
+    ["HTMLHead"]=>
+    &object(HTMLHead)#4 (3) {
+      ["path":"HTMLHead":private]=>
+      string(32) "D:\xampp\htdocs\marketplace/nav/"
+      ["nav":"HTMLHead":private]=>
+      string(9) "top_guest"
+      ["additionalNavs":"HTMLHead":private]=>
+      array(0) {
+      }
+    }
+    ["HTMLFoot"]=>
+    &object(HTMLFoot)#5 (2) {
+      ["path":"HTMLFoot":private]=>
+      string(33) "D:\xampp\htdocs\marketplace/foot/"
+      ["foot":"HTMLFoot":private]=>
+      string(6) "normal"
+    }
+    ["User"]=>
+    &object(User)#6 (12) {
+      ["cookie":protected]=>
+      bool(false)
+      ["cookie_name":protected]=>
+      string(11) "marketplace"
+      ["cookie_value":protected]=>
+      array(0) {
+      }
+      ["Name":protected]=>
+      string(0) ""
+      ["Data":protected]=>
+      array(0) {
+      }
+      ["Username":protected]=>
+      NULL
+      ["Registered":protected]=>
+      NULL
+      ["UserID":protected]=>
+      NULL
+      ["Currency":protected]=>
+      NULL
+      ["reason":protected]=>
+      NULL
+      ["twoFA":protected]=>
+      bool(false)
+      ["OtherUserData":protected]=>
+      array(0) {
+      }
+    }
+    ["Language"]=>
+    &object(Language)#7 (2) {
+      ["path_cache":"Language":private]=>
+      string(34) "D:\xampp\htdocs\marketplace/cache/"
+      ["language":"Language":private]=>
+      string(2) "en"
+    }
+    ["Pages"]=>
+    &object(Pages)#2 (8) {
+      ["path":"Pages":private]=>
+      string(34) "D:\xampp\htdocs\marketplace/pages/"
+      ["error_path":"Pages":private]=>
+      string(40) "D:\xampp\htdocs\marketplace/error_pages/"
+      ["uri_page":"Pages":private]=>
+      string(5) "login"
+      ["uri_realpath":"Pages":private]=>
+      string(6) "/login"
+      ["uri_path":"Pages":private]=>
+      array(0) {
+      }
+      ["uri_query":"Pages":private]=>
+      string(0) ""
+      ["suppress_html":"Pages":private]=>
+      bool(false)
+      ["layout":"Pages":private]=>
+      string(0) ""
+    }
+    ["_SESSION"]=>
+    &array(1) {
+      ["Language"]=>
+      string(2) "en"
+    }
+    ["GLOBALS"]=>
+    *RECURSION*
+    ["_SERVER"]=>
+    array(57) {
+      ["REDIRECT_MIBDIRS"]=>
+      string(24) "D:/xampp/php/extras/mibs"
+      ["REDIRECT_MYSQL_HOME"]=>
+      string(16) "\xampp\mysql\bin"
+      ["REDIRECT_OPENSSL_CONF"]=>
+      string(31) "D:/xampp/apache/bin/openssl.cnf"
+      ["REDIRECT_PHP_PEAR_SYSCONF_DIR"]=>
+      string(10) "\xampp\php"
+      ["REDIRECT_PHPRC"]=>
+      string(10) "\xampp\php"
+      ["REDIRECT_TMP"]=>
+      string(10) "\xampp\tmp"
+      ["REDIRECT_STATUS"]=>
+      string(3) "200"
+      ["MIBDIRS"]=>
+      string(24) "D:/xampp/php/extras/mibs"
+      ["MYSQL_HOME"]=>
+      string(16) "\xampp\mysql\bin"
+      ["OPENSSL_CONF"]=>
+      string(31) "D:/xampp/apache/bin/openssl.cnf"
+      ["PHP_PEAR_SYSCONF_DIR"]=>
+      string(10) "\xampp\php"
+      ["PHPRC"]=>
+      string(10) "\xampp\php"
+      ["TMP"]=>
+      string(10) "\xampp\tmp"
+      ["HTTP_HOST"]=>
+      string(14) "localhost:5000"
+      ["HTTP_CONNECTION"]=>
+      string(10) "keep-alive"
+      ["HTTP_PRAGMA"]=>
+      string(8) "no-cache"
+      ["HTTP_CACHE_CONTROL"]=>
+      string(8) "no-cache"
+      ["HTTP_SEC_CH_UA"]=>
+      string(64) "" Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91""
+      ["HTTP_SEC_CH_UA_MOBILE"]=>
+      string(2) "?0"
+      ["HTTP_UPGRADE_INSECURE_REQUESTS"]=>
+      string(1) "1"
+      ["HTTP_USER_AGENT"]=>
+      string(115) "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+      ["HTTP_ACCEPT"]=>
+      string(135) "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+      ["HTTP_SEC_FETCH_SITE"]=>
+      string(4) "none"
+      ["HTTP_SEC_FETCH_MODE"]=>
+      string(8) "navigate"
+      ["HTTP_SEC_FETCH_USER"]=>
+      string(2) "?1"
+      ["HTTP_SEC_FETCH_DEST"]=>
+      string(8) "document"
+      ["HTTP_ACCEPT_ENCODING"]=>
+      string(17) "gzip, deflate, br"
+      ["HTTP_ACCEPT_LANGUAGE"]=>
+      string(14) "en-US,en;q=0.9"
+      ["HTTP_COOKIE"]=>
+      string(36) "PHPSESSID=r4kva6j8ddu9f1f08rqenednr5"
+      ["PATH"]=>
+      string(453) "C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Donald Werner\AppData\Local\Microsoft\WindowsApps;C:\Users\Donald Werner\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Donald Werner\AppData\Roaming\npm;C:\Users\Donald Werner\AppData\Local\gitkraken\bin"
+      ["SystemRoot"]=>
+      string(10) "C:\Windows"
+      ["COMSPEC"]=>
+      string(27) "C:\Windows\system32\cmd.exe"
+      ["PATHEXT"]=>
+      string(53) ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"
+      ["WINDIR"]=>
+      string(10) "C:\Windows"
+      ["SERVER_SIGNATURE"]=>
+      string(96) "<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.9 Server at localhost Port 5000</address>
+"
+      ["SERVER_SOFTWARE"]=>
+      string(46) "Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.9"
+      ["SERVER_NAME"]=>
+      string(9) "localhost"
+      ["SERVER_ADDR"]=>
+      string(3) "::1"
+      ["SERVER_PORT"]=>
+      string(4) "5000"
+      ["REMOTE_ADDR"]=>
+      string(3) "::1"
+      ["DOCUMENT_ROOT"]=>
+      string(27) "D:/xampp/htdocs/marketplace"
+      ["REQUEST_SCHEME"]=>
+      string(4) "http"
+      ["CONTEXT_PREFIX"]=>
+      string(0) ""
+      ["CONTEXT_DOCUMENT_ROOT"]=>
+      string(27) "D:/xampp/htdocs/marketplace"
+      ["SERVER_ADMIN"]=>
+      string(20) "postmaster@localhost"
+      ["SCRIPT_FILENAME"]=>
+      string(37) "D:/xampp/htdocs/marketplace/index.php"
+      ["REMOTE_PORT"]=>
+      string(5) "55766"
+      ["REDIRECT_URL"]=>
+      string(6) "/login"
+      ["GATEWAY_INTERFACE"]=>
+      string(7) "CGI/1.1"
+      ["SERVER_PROTOCOL"]=>
+      string(8) "HTTP/1.1"
+      ["REQUEST_METHOD"]=>
+      string(3) "GET"
+      ["QUERY_STRING"]=>
+      string(0) ""
+      ["REQUEST_URI"]=>
+      string(6) "/login"
+      ["SCRIPT_NAME"]=>
+      string(10) "/index.php"
+      ["PHP_SELF"]=>
+      string(10) "/index.php"
+      ["REQUEST_TIME_FLOAT"]=>
+      float(1626087712.2135)
+      ["REQUEST_TIME"]=>
+      int(1626087712)
+    }
+    ["QR_BASEDIR"]=>
+    string(40) "D:\xampp\htdocs\marketplace\libs\qrcode\"
+    ["Language_REALFILE"]=>
+    &string(43) "D:\xampp\htdocs\marketplace/pages/login.php"
+  }
+  ["_SERVER"]=>
+  array(57) {
+    ["REDIRECT_MIBDIRS"]=>
+    string(24) "D:/xampp/php/extras/mibs"
+    ["REDIRECT_MYSQL_HOME"]=>
+    string(16) "\xampp\mysql\bin"
+    ["REDIRECT_OPENSSL_CONF"]=>
+    string(31) "D:/xampp/apache/bin/openssl.cnf"
+    ["REDIRECT_PHP_PEAR_SYSCONF_DIR"]=>
+    string(10) "\xampp\php"
+    ["REDIRECT_PHPRC"]=>
+    string(10) "\xampp\php"
+    ["REDIRECT_TMP"]=>
+    string(10) "\xampp\tmp"
+    ["REDIRECT_STATUS"]=>
+    string(3) "200"
+    ["MIBDIRS"]=>
+    string(24) "D:/xampp/php/extras/mibs"
+    ["MYSQL_HOME"]=>
+    string(16) "\xampp\mysql\bin"
+    ["OPENSSL_CONF"]=>
+    string(31) "D:/xampp/apache/bin/openssl.cnf"
+    ["PHP_PEAR_SYSCONF_DIR"]=>
+    string(10) "\xampp\php"
+    ["PHPRC"]=>
+    string(10) "\xampp\php"
+    ["TMP"]=>
+    string(10) "\xampp\tmp"
+    ["HTTP_HOST"]=>
+    string(14) "localhost:5000"
+    ["HTTP_CONNECTION"]=>
+    string(10) "keep-alive"
+    ["HTTP_PRAGMA"]=>
+    string(8) "no-cache"
+    ["HTTP_CACHE_CONTROL"]=>
+    string(8) "no-cache"
+    ["HTTP_SEC_CH_UA"]=>
+    string(64) "" Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91""
+    ["HTTP_SEC_CH_UA_MOBILE"]=>
+    string(2) "?0"
+    ["HTTP_UPGRADE_INSECURE_REQUESTS"]=>
+    string(1) "1"
+    ["HTTP_USER_AGENT"]=>
+    string(115) "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    ["HTTP_ACCEPT"]=>
+    string(135) "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+    ["HTTP_SEC_FETCH_SITE"]=>
+    string(4) "none"
+    ["HTTP_SEC_FETCH_MODE"]=>
+    string(8) "navigate"
+    ["HTTP_SEC_FETCH_USER"]=>
+    string(2) "?1"
+    ["HTTP_SEC_FETCH_DEST"]=>
+    string(8) "document"
+    ["HTTP_ACCEPT_ENCODING"]=>
+    string(17) "gzip, deflate, br"
+    ["HTTP_ACCEPT_LANGUAGE"]=>
+    string(14) "en-US,en;q=0.9"
+    ["HTTP_COOKIE"]=>
+    string(36) "PHPSESSID=r4kva6j8ddu9f1f08rqenednr5"
+    ["PATH"]=>
+    string(453) "C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Donald Werner\AppData\Local\Microsoft\WindowsApps;C:\Users\Donald Werner\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Donald Werner\AppData\Roaming\npm;C:\Users\Donald Werner\AppData\Local\gitkraken\bin"
+    ["SystemRoot"]=>
+    string(10) "C:\Windows"
+    ["COMSPEC"]=>
+    string(27) "C:\Windows\system32\cmd.exe"
+    ["PATHEXT"]=>
+    string(53) ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"
+    ["WINDIR"]=>
+    string(10) "C:\Windows"
+    ["SERVER_SIGNATURE"]=>
+    string(96) "<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.9 Server at localhost Port 5000</address>
+"
+    ["SERVER_SOFTWARE"]=>
+    string(46) "Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.9"
+    ["SERVER_NAME"]=>
+    string(9) "localhost"
+    ["SERVER_ADDR"]=>
+    string(3) "::1"
+    ["SERVER_PORT"]=>
+    string(4) "5000"
+    ["REMOTE_ADDR"]=>
+    string(3) "::1"
+    ["DOCUMENT_ROOT"]=>
+    string(27) "D:/xampp/htdocs/marketplace"
+    ["REQUEST_SCHEME"]=>
+    string(4) "http"
+    ["CONTEXT_PREFIX"]=>
+    string(0) ""
+    ["CONTEXT_DOCUMENT_ROOT"]=>
+    string(27) "D:/xampp/htdocs/marketplace"
+    ["SERVER_ADMIN"]=>
+    string(20) "postmaster@localhost"
+    ["SCRIPT_FILENAME"]=>
+    string(37) "D:/xampp/htdocs/marketplace/index.php"
+    ["REMOTE_PORT"]=>
+    string(5) "55766"
+    ["REDIRECT_URL"]=>
+    string(6) "/login"
+    ["GATEWAY_INTERFACE"]=>
+    string(7) "CGI/1.1"
+    ["SERVER_PROTOCOL"]=>
+    string(8) "HTTP/1.1"
+    ["REQUEST_METHOD"]=>
+    string(3) "GET"
+    ["QUERY_STRING"]=>
+    string(0) ""
+    ["REQUEST_URI"]=>
+    string(6) "/login"
+    ["SCRIPT_NAME"]=>
+    string(10) "/index.php"
+    ["PHP_SELF"]=>
+    string(10) "/index.php"
+    ["REQUEST_TIME_FLOAT"]=>
+    float(1626087712.2135)
+    ["REQUEST_TIME"]=>
+    int(1626087712)
+  }
+  ["QR_BASEDIR"]=>
+  string(40) "D:\xampp\htdocs\marketplace\libs\qrcode\"
+  ["Language_REALFILE"]=>
+  &string(43) "D:\xampp\htdocs\marketplace/pages/login.php"
+}

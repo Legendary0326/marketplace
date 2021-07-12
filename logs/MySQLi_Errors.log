@@ -1,0 +1,23 @@
+10.07.2021 09:01:28: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'd0c0bcf5e3398b6f4dee220d01c' at line 1
+10.07.2021 09:32:18: Unknown column 'd361bf4a213d598ff2ec6073a571d269' in 'where clause'
+10.07.2021 09:35:48: Unknown column 'bfcd09f74a1dfca8513326aa8ead7585' in 'where clause'
+10.07.2021 09:48:55: Unknown column 'c206f1f79af22e2437c0fb1ed3f932c5' in 'where clause'
+10.07.2021 09:50:57: Unknown column '785cc3616a938beeab3180998e58c838' in 'where clause'
+10.07.2021 15:38:54: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'e0d5bfa51f099bb2235cf0df4be19' at line 1
+10.07.2021 15:45:10: Unknown column '9abc4b9d99ee238bf9b2c39635cdca24' in 'where clause'
+10.07.2021 15:47:43: Unknown column 'bb3ef17e92819dc9f13e01c366a9d517' in 'where clause'
+10.07.2021 15:47:53: Unknown column '6a8f2303804f68588d72b64ae01c72bf' in 'where clause'
+10.07.2021 15:49:40: Unknown column '56118178c7bc10952af32794a1ed9597' in 'where clause'
+10.07.2021 17:52:45: Unknown column '19bcbe114b27154de1896097641cb94e' in 'where clause'
+11.07.2021 09:18:51: Unknown column 'fdda0ba572166af5a2cab2f1258b1952' in 'where clause'
+11.07.2021 09:33:36: Unknown column '79c6147afd434c88ee15c8662882c564' in 'where clause'
+11.07.2021 09:34:45: Unknown column '185c1096064c8868c571b934e32a3637' in 'where clause'
+11.07.2021 10:28:07: Unknown column 'cd18eb55e1ce03c2d2b9fbd1c1c7b9e4' in 'where clause'
+11.07.2021 11:37:19: Unknown column '2524334cffbc87de65530c18ee70f826' in 'where clause'
+11.07.2021 11:54:13: Unknown column '23876ebb2e34a387c2fef596dda41f16' in 'where clause'
+11.07.2021 13:31:31: Unknown column 'a15c9b27806fd95019cb146a94c093e6' in 'where clause'
+11.07.2021 13:45:53: Unknown column '56ff1270dd3c2a8ce7901212f35f5eb5' in 'where clause'
+11.07.2021 14:29:26: Unknown column '5f10932b53b77b74bcf92f1fe008ce82' in 'where clause'
+11.07.2021 14:30:09: Illegal double '10e368' value found during parsing
+11.07.2021 17:29:02: Unknown column '8716ec575eebce17ce7d9c8cd183d8c0' in 'where clause'
+12.07.2021 06:44:53: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'bc8f5d246827abafd9e561c9f467f' at line 1

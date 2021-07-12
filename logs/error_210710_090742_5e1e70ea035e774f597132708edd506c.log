@@ -1,0 +1,956 @@
+ErrNo: 8
+ErrStr: Trying to access array offset on value of type null
+ErrFile: /var/www/vhosts/market1304.de/httpdocs/libs/LTC.php
+<b>REALFILE:</b> /var/www/vhosts/market1304.de/httpdocs/pages/litecoinwallet.php
+ErrLine: 33
+
+GLOBALS:
+array(18) {
+  ["_GET"]=>
+  array(0) {
+  }
+  ["_POST"]=>
+  array(0) {
+  }
+  ["_COOKIE"]=>
+  array(2) {
+    ["PHPSESSID"]=>
+    string(26) "pekik09jtb6hbdqjl0d5olqlmd"
+    ["marketplace"]=>
+    string(224) "nBUDfdy//atrMgE8UzGtPJ6gFiTllbE0TFDQgasLWCLQwDukzMtgn2KvSpOXE1Wr/a3aFN61vgB/oY40TzLYlkH13DQQIFmdOfpB46Feuv4CaWFCIj5HFpijl5v5FIfIr5DjX8TP/6pekr62neBNE4Iwlxvp9lKXMBxUs3cSyEpHGLMpo9TKTCZHdY3iIqE6zjxY4wcG0l/88Lb9ehSMWjUyFLQxgUwG"
+  }
+  ["_FILES"]=>
+  array(0) {
+  }
+  ["_SERVER"]=>
+  array(47) {
+    ["USER"]=>
+    string(9) "sysuser_0"
+    ["HOME"]=>
+    string(29) "/var/www/vhosts/market1304.de"
+    ["SCRIPT_NAME"]=>
+    string(10) "/index.php"
+    ["REQUEST_URI"]=>
+    string(22) "/litecoinwallet/create"
+    ["QUERY_STRING"]=>
+    string(0) ""
+    ["REQUEST_METHOD"]=>
+    string(3) "GET"
+    ["SERVER_PROTOCOL"]=>
+    string(8) "HTTP/1.0"
+    ["GATEWAY_INTERFACE"]=>
+    string(7) "CGI/1.1"
+    ["REDIRECT_URL"]=>
+    string(22) "/litecoinwallet/create"
+    ["REMOTE_PORT"]=>
+    string(5) "54418"
+    ["SCRIPT_FILENAME"]=>
+    string(48) "/var/www/vhosts/market1304.de/httpdocs/index.php"
+    ["SERVER_ADMIN"]=>
+    string(18) "[no address given]"
+    ["CONTEXT_DOCUMENT_ROOT"]=>
+    string(38) "/var/www/vhosts/market1304.de/httpdocs"
+    ["CONTEXT_PREFIX"]=>
+    string(0) ""
+    ["REQUEST_SCHEME"]=>
+    string(4) "http"
+    ["DOCUMENT_ROOT"]=>
+    string(38) "/var/www/vhosts/market1304.de/httpdocs"
+    ["REMOTE_ADDR"]=>
+    string(11) "80.187.86.3"
+    ["SERVER_PORT"]=>
+    string(2) "80"
+    ["SERVER_ADDR"]=>
+    string(15) "173.212.219.210"
+    ["SERVER_NAME"]=>
+    string(13) "market1304.de"
+    ["SERVER_SOFTWARE"]=>
+    string(6) "Apache"
+    ["SERVER_SIGNATURE"]=>
+    string(58) "<address>Apache Server at market1304.de Port 80</address>
+"
+    ["PATH"]=>
+    string(60) "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+    ["HTTP_CACHE_CONTROL"]=>
+    string(9) "max-age=0"
+    ["HTTP_UPGRADE_INSECURE_REQUESTS"]=>
+    string(1) "1"
+    ["HTTP_COOKIE"]=>
+    string(286) "PHPSESSID=pekik09jtb6hbdqjl0d5olqlmd; marketplace=nBUDfdy%2F%2FatrMgE8UzGtPJ6gFiTllbE0TFDQgasLWCLQwDukzMtgn2KvSpOXE1Wr%2Fa3aFN61vgB%2FoY40TzLYlkH13DQQIFmdOfpB46Feuv4CaWFCIj5HFpijl5v5FIfIr5DjX8TP%2F6pekr62neBNE4Iwlxvp9lKXMBxUs3cSyEpHGLMpo9TKTCZHdY3iIqE6zjxY4wcG0l%2F88Lb9ehSMWjUyFLQxgUwG"
+    ["HTTP_REFERER"]=>
+    string(35) "http://market1304.de/litecoinwallet"
+    ["HTTP_ACCEPT_ENCODING"]=>
+    string(13) "gzip, deflate"
+    ["HTTP_ACCEPT_LANGUAGE"]=>
+    string(23) "de,en-US;q=0.7,en;q=0.3"
+    ["HTTP_ACCEPT"]=>
+    string(74) "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+    ["HTTP_USER_AGENT"]=>
+    string(78) "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0"
+    ["HTTP_CONNECTION"]=>
+    string(5) "close"
+    ["HTTP_X_ACCEL_INTERNAL"]=>
+    string(31) "/internal-nginx-static-location"
+    ["HTTP_X_REAL_IP"]=>
+    string(11) "80.187.86.3"
+    ["HTTP_HOST"]=>
+    string(13) "market1304.de"
+    ["proxy-nokeepalive"]=>
+    string(1) "1"
+    ["SCRIPT_URI"]=>
+    string(42) "http://market1304.de/litecoinwallet/create"
+    ["SCRIPT_URL"]=>
+    string(22) "/litecoinwallet/create"
+    ["UNIQUE_ID"]=>
+    string(27) "YOljXc5mnu3@rXTjdrhgigAAAAc"
+    ["REDIRECT_STATUS"]=>
+    string(3) "200"
+    ["REDIRECT_SCRIPT_URI"]=>
+    string(42) "http://market1304.de/litecoinwallet/create"
+    ["REDIRECT_SCRIPT_URL"]=>
+    string(22) "/litecoinwallet/create"
+    ["REDIRECT_UNIQUE_ID"]=>
+    string(27) "YOljXc5mnu3@rXTjdrhgigAAAAc"
+    ["FCGI_ROLE"]=>
+    string(9) "RESPONDER"
+    ["PHP_SELF"]=>
+    string(10) "/index.php"
+    ["REQUEST_TIME_FLOAT"]=>
+    float(1625908062.011)
+    ["REQUEST_TIME"]=>
+    int(1625908062)
+  }
+  ["_REQUEST"]=>
+  array(0) {
+  }
+  ["_ENV"]=>
+  array(0) {
+  }
+  ["GLOBALS"]=>
+  array(18) {
+    ["_GET"]=>
+    array(0) {
+    }
+    ["_POST"]=>
+    array(0) {
+    }
+    ["_COOKIE"]=>
+    array(2) {
+      ["PHPSESSID"]=>
+      string(26) "pekik09jtb6hbdqjl0d5olqlmd"
+      ["marketplace"]=>
+      string(224) "nBUDfdy//atrMgE8UzGtPJ6gFiTllbE0TFDQgasLWCLQwDukzMtgn2KvSpOXE1Wr/a3aFN61vgB/oY40TzLYlkH13DQQIFmdOfpB46Feuv4CaWFCIj5HFpijl5v5FIfIr5DjX8TP/6pekr62neBNE4Iwlxvp9lKXMBxUs3cSyEpHGLMpo9TKTCZHdY3iIqE6zjxY4wcG0l/88Lb9ehSMWjUyFLQxgUwG"
+    }
+    ["_FILES"]=>
+    array(0) {
+    }
+    ["_SERVER"]=>
+    array(47) {
+      ["USER"]=>
+      string(9) "sysuser_0"
+      ["HOME"]=>
+      string(29) "/var/www/vhosts/market1304.de"
+      ["SCRIPT_NAME"]=>
+      string(10) "/index.php"
+      ["REQUEST_URI"]=>
+      string(22) "/litecoinwallet/create"
+      ["QUERY_STRING"]=>
+      string(0) ""
+      ["REQUEST_METHOD"]=>
+      string(3) "GET"
+      ["SERVER_PROTOCOL"]=>
+      string(8) "HTTP/1.0"
+      ["GATEWAY_INTERFACE"]=>
+      string(7) "CGI/1.1"
+      ["REDIRECT_URL"]=>
+      string(22) "/litecoinwallet/create"
+      ["REMOTE_PORT"]=>
+      string(5) "54418"
+      ["SCRIPT_FILENAME"]=>
+      string(48) "/var/www/vhosts/market1304.de/httpdocs/index.php"
+      ["SERVER_ADMIN"]=>
+      string(18) "[no address given]"
+      ["CONTEXT_DOCUMENT_ROOT"]=>
+      string(38) "/var/www/vhosts/market1304.de/httpdocs"
+      ["CONTEXT_PREFIX"]=>
+      string(0) ""
+      ["REQUEST_SCHEME"]=>
+      string(4) "http"
+      ["DOCUMENT_ROOT"]=>
+      string(38) "/var/www/vhosts/market1304.de/httpdocs"
+      ["REMOTE_ADDR"]=>
+      string(11) "80.187.86.3"
+      ["SERVER_PORT"]=>
+      string(2) "80"
+      ["SERVER_ADDR"]=>
+      string(15) "173.212.219.210"
+      ["SERVER_NAME"]=>
+      string(13) "market1304.de"
+      ["SERVER_SOFTWARE"]=>
+      string(6) "Apache"
+      ["SERVER_SIGNATURE"]=>
+      string(58) "<address>Apache Server at market1304.de Port 80</address>
+"
+      ["PATH"]=>
+      string(60) "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      ["HTTP_CACHE_CONTROL"]=>
+      string(9) "max-age=0"
+      ["HTTP_UPGRADE_INSECURE_REQUESTS"]=>
+      string(1) "1"
+      ["HTTP_COOKIE"]=>
+      string(286) "PHPSESSID=pekik09jtb6hbdqjl0d5olqlmd; marketplace=nBUDfdy%2F%2FatrMgE8UzGtPJ6gFiTllbE0TFDQgasLWCLQwDukzMtgn2KvSpOXE1Wr%2Fa3aFN61vgB%2FoY40TzLYlkH13DQQIFmdOfpB46Feuv4CaWFCIj5HFpijl5v5FIfIr5DjX8TP%2F6pekr62neBNE4Iwlxvp9lKXMBxUs3cSyEpHGLMpo9TKTCZHdY3iIqE6zjxY4wcG0l%2F88Lb9ehSMWjUyFLQxgUwG"
+      ["HTTP_REFERER"]=>
+      string(35) "http://market1304.de/litecoinwallet"
+      ["HTTP_ACCEPT_ENCODING"]=>
+      string(13) "gzip, deflate"
+      ["HTTP_ACCEPT_LANGUAGE"]=>
+      string(23) "de,en-US;q=0.7,en;q=0.3"
+      ["HTTP_ACCEPT"]=>
+      string(74) "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+      ["HTTP_USER_AGENT"]=>
+      string(78) "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0"
+      ["HTTP_CONNECTION"]=>
+      string(5) "close"
+      ["HTTP_X_ACCEL_INTERNAL"]=>
+      string(31) "/internal-nginx-static-location"
+      ["HTTP_X_REAL_IP"]=>
+      string(11) "80.187.86.3"
+      ["HTTP_HOST"]=>
+      string(13) "market1304.de"
+      ["proxy-nokeepalive"]=>
+      string(1) "1"
+      ["SCRIPT_URI"]=>
+      string(42) "http://market1304.de/litecoinwallet/create"
+      ["SCRIPT_URL"]=>
+      string(22) "/litecoinwallet/create"
+      ["UNIQUE_ID"]=>
+      string(27) "YOljXc5mnu3@rXTjdrhgigAAAAc"
+      ["REDIRECT_STATUS"]=>
+      string(3) "200"
+      ["REDIRECT_SCRIPT_URI"]=>
+      string(42) "http://market1304.de/litecoinwallet/create"
+      ["REDIRECT_SCRIPT_URL"]=>
+      string(22) "/litecoinwallet/create"
+      ["REDIRECT_UNIQUE_ID"]=>
+      string(27) "YOljXc5mnu3@rXTjdrhgigAAAAc"
+      ["FCGI_ROLE"]=>
+      string(9) "RESPONDER"
+      ["PHP_SELF"]=>
+      string(10) "/index.php"
+      ["REQUEST_TIME_FLOAT"]=>
+      float(1625908062.011)
+      ["REQUEST_TIME"]=>
+      int(1625908062)
+    }
+    ["_REQUEST"]=>
+    array(0) {
+    }
+    ["_ENV"]=>
+    array(0) {
+    }
+    ["GLOBALS"]=>
+    *RECURSION*
+    ["Libs"]=>
+    object(Libs)#1 (2) {
+      ["path":"Libs":private]=>
+      string(44) "/var/www/vhosts/market1304.de/httpdocs/libs/"
+      ["libs_loaded":"Libs":private]=>
+      array(22) {
+        ["MiscFunctions"]=>
+        bool(true)
+        ["MySQLiExt"]=>
+        bool(true)
+        ["HTMLHead"]=>
+        bool(true)
+        ["HTMLFoot"]=>
+        bool(true)
+        ["User"]=>
+        bool(true)
+        ["Language"]=>
+        bool(true)
+        ["Currencies"]=>
+        bool(true)
+        ["Forms"]=>
+        bool(true)
+        ["Password"]=>
+        bool(true)
+        ["Captcha"]=>
+        bool(true)
+        ["Alerts"]=>
+        bool(true)
+        ["Categories"]=>
+        bool(true)
+        ["Status"]=>
+        bool(true)
+        ["Market"]=>
+        bool(true)
+        ["Messages"]=>
+        bool(true)
+        ["gpg"]=>
+        bool(true)
+        ["Pagination"]=>
+        bool(true)
+        ["BTC"]=>
+        bool(true)
+        ["LTC"]=>
+        bool(true)
+        ["XMR"]=>
+        bool(true)
+        ["AccountSupport"]=>
+        bool(true)
+        ["Ranking"]=>
+        bool(true)
+      }
+    }
+    ["DB"]=>
+    &object(MySQLiExt)#3 (18) {
+      ["affected_rows"]=>
+      int(1)
+      ["client_info"]=>
+      string(14) "mysqlnd 7.4.21"
+      ["client_version"]=>
+      int(70421)
+      ["connect_errno"]=>
+      int(0)
+      ["connect_error"]=>
+      NULL
+      ["errno"]=>
+      int(0)
+      ["error"]=>
+      string(0) ""
+      ["error_list"]=>
+      array(0) {
+      }
+      ["field_count"]=>
+      int(0)
+      ["host_info"]=>
+      string(20) "127.0.0.1 via TCP/IP"
+      ["info"]=>
+      string(40) "Rows matched: 1  Changed: 1  Warnings: 0"
+      ["insert_id"]=>
+      int(0)
+      ["server_info"]=>
+      string(38) "5.5.5-10.1.48-MariaDB-0ubuntu0.18.04.1"
+      ["server_version"]=>
+      int(100148)
+      ["sqlstate"]=>
+      string(5) "00000"
+      ["protocol_version"]=>
+      int(10)
+      ["thread_id"]=>
+      int(1135156)
+      ["warning_count"]=>
+      int(0)
+    }
+    ["HTMLHead"]=>
+    &object(HTMLHead)#4 (3) {
+      ["path":"HTMLHead":private]=>
+      string(43) "/var/www/vhosts/market1304.de/httpdocs/nav/"
+      ["nav":"HTMLHead":private]=>
+      string(12) "top_customer"
+      ["additionalNavs":"HTMLHead":private]=>
+      array(1) {
+        [0]=>
+        string(10) "cat_search"
+      }
+    }
+    ["HTMLFoot"]=>
+    &object(HTMLFoot)#5 (2) {
+      ["path":"HTMLFoot":private]=>
+      string(44) "/var/www/vhosts/market1304.de/httpdocs/foot/"
+      ["foot":"HTMLFoot":private]=>
+      string(6) "normal"
+    }
+    ["User"]=>
+    &object(User)#6 (12) {
+      ["cookie":protected]=>
+      bool(true)
+      ["cookie_name":protected]=>
+      string(11) "marketplace"
+      ["cookie_value":protected]=>
+      array(4) {
+        ["UserID"]=>
+        int(15)
+        ["LoginKey"]=>
+        string(32) "8ef7703ee5d01a50b57b3cb5653ffdf5"
+        ["RememberLogin"]=>
+        bool(false)
+        ["SessionKey"]=>
+        string(32) "d361bf4a213d598ff2ec6073a571d269"
+      }
+      ["Name":protected]=>
+      string(0) ""
+      ["Data":protected]=>
+      array(41) {
+        ["UserID"]=>
+        int(15)
+        ["Username"]=>
+        string(8) "rapunzel"
+        ["Password"]=>
+        string(60) "$2y$10$enULTuF2FvMKko/4dlkiUOx5myVGr9UyMXSPhjjFwj.haIoFkHkqi"
+        ["Role"]=>
+        string(4) "user"
+        ["BlockTransactions"]=>
+        int(0)
+        ["BlockLogin"]=>
+        int(0)
+        ["OnHoliday"]=>
+        int(0)
+        ["Registered"]=>
+        int(1618988309)
+        ["LoginKey"]=>
+        string(32) "8ef7703ee5d01a50b57b3cb5653ffdf5"
+        ["Currency"]=>
+        string(3) "EUR"
+        ["WC"]=>
+        string(4) "1234"
+        ["APP"]=>
+        string(15) "Hello Rapunzel!"
+        ["MPP"]=>
+        string(60) "$2y$10$f0fneKMf7MIgShxkglp/TeRRCuOUFlL7Kbv2YcpQPw2YnCi5.c1aG"
+        ["XMR"]=>
+        float(0.04148965)
+        ["BTC"]=>
+        float(0)
+        ["LTC"]=>
+        float(0.09448467)
+        ["Avatar"]=>
+        string(6) "purple"
+        ["AvatarCustom"]=>
+        string(4743) "ÿØÿà JFIF  ` `  ÿþ ;CREATOR: gd-jpeg v1.0 (using IJG JPEG v80), quality = 80
+ÿÛ C 
+
+
+		
+%# , #&')*)-0-(0%()(ÿÛ C
+
+
+
+(((((((((((((((((((((((((((((((((((((((((((((((((((ÿÀ  € €" ÿÄ           	
+ÿÄ µ   } !1AQa"q2‘¡#B±ÁRÑð$3br‚	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùúÿÄ        	
+ÿÄ µ  w !1AQaq"2B‘¡±Á	#3RðbrÑ
+$4á%ñ&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÚ   ? ú^Š(®‘…Q@Q@Q@‡¬x–ÓM»û Š{»°4Và€ô,X€3éœÔš7ˆlµYZÄ¶÷J7'P¯Q‚ABhº/ÙÏ—šÚQEQ@Q@V[ëF¸0-ÔppcÙúu¬/ÝÍ›imo#D×·"t8`›YÛ±!1ø×(Ö6Â±½½º§@
+ŠMt0¾Ö<×±ê4WšMã4ð†–Óê}æœHHÙ[sDÇ ,ƒß’ƒÆd~2²×â3\ëpˆ?gI|¨Ðz…¿aG1Wj|¤zî«§Ø’/o­mÈçÌ©üÍxGÄ¯SFMáŸöµêñ-òÄeëš½ï—Øõ®¥eÐÒ	"Ytå‰Á¡Ð®k;DèfÑN—g;ˆ">¤“’~µ-³©ÇùŽá7‰þ$OñÂëÆzä:ó~Ô·{"‹[mÂ€0wè;}kéÛ+û;åÝewop¾±Hùò×Ö4»¥T[û2ÁÕ±ç¡èAìkÊüK¦üH“VÔSG¼°ºÓgÞÚå|¿6c ãp qÆzqI;
+¦1^ëoñ=cE¼·¿×õ«H®¡}DjS$Ñîñ¯˜Ê›†s‹ÇÒµµ5í§‰aæàÉñ¬Œ1ÏQõæ¸?…¾‹ÂR™®¥¸Öï$ó®n˜2–nxRy e¹<œ’}§Šüao ¿úR´·Âî™IÇ¾N@¢çl/.}GªøgRmSIŽi”-Ê1Še^ÔàãØðG±­Zù¯Á?ï´ÍUày!¿‚òçÌ0GÝ™À8rA<Æ;WÒ•qwG7'Ë°QEÉ
+(¢€9ˆ¶ÒÉáñy—“O™nöŽêWÿ ÇYáXú¡wPÝ³³K_3û¹ÁûqŠïÏ#šó]cÃšŸ‡îå›A¶7ÚLŒXÚ!ÃÛ“Ô(î¾Ã‘ÓêdŽì-h¤éÏDËZËYêw/åÛ£[2²q>qÔ tÉëŸN¾ñá”ÖB]GÃHòÛšKAËÇîÈöëõíéßÚ—šmøÿ „ŠÊ]>;•ÜÈSŒñO>ÇÚ>©x³3ÙÉ¥Þ[žDfsŠ=:0cÿ |ÔÝ•(Â¬4ÕwZŸ9éš•Ói¯
+du8lzÛ5©1Û7{œ×¦x“Kðö°d—Q·¹ÐoXäÝ:(ŸVu&?Í?…qÚÏõë8ÔÚE©lü¤Ö‡$p¡4*¦¤^šÿ ]Ž2`¬ÙÚáOŽG·dR¼L½ŒT—^©]6ùä·pÐãš’ÏÃÚ®«"Ä–7knHó%1•Uìx#	7dµ4t¯xì.]uYšÆ$2ù’nrqžÇ<t+˜’íî·Os+M4„³3µô7…¬ü?á½$Øµõ„’Ê¸¸&E!¸ÆÜt0}Éäšó½wáˆºÔå
+ê:|–2|ëÏóÄ{¨À9™#úÑuÜí©ƒ­Èž¯ô3þØOâ&‰•fóz„¿¥}—^YðWÀZ7†í_P‚í¯õf_.WtòþÏê2H>äœöâ½N´Š²99\taEU QE QEUÔµM2Ñî¯çH ^¬Ç©ô©>Ãš ¥©¦©3ËVZeÕ› \LÊ[×#c
+áõFÐ­nZ;ßxa¦S‡KKòè@€`ýMI®x‚ïVV/$šfN‰î>¸åAþèä÷ë›oy´½&ñã|±@úù…Iú€j[¹ÝK÷›·æe&­e§øŽål4«Øtë¨UHBNÔ•`6f¡ÆÉ<U+ÛÏZ³\Xê2hw%²À)¶ÞIêÐJ¡\ú»½kÝÇ©‘¨G¦éðK;¤k–g)ŽAQ¯ÞíVõmÄWþ–àË¦:H¢O²ý‘ä2G{È:ŽØö¨gb\‘I»˜öõÖš|½EúÅÔ4šzîM¾K(ã¨, ê@¯IÒt½;PÒ–f’B˜Î$ƒÆTŒ|„qøõút¯+ƒÂPiž!´¸²Ô4EÓ¯Ã›{ÈleˆÃ(Æc,“«¯Œ·®G¯aÑ4¨t«eKdˆ4Ÿ=ÄŠe“ o'$“ÇRI<dšfe*Ò•šÑ2øÛÃ³xg_žÆPL9Ý„}ô=ô5„…ƒ™Ûkê/ˆ:>—«hnºª.ôÿ Pàá•ÏLO_jnà/èŒ’ZX¬—ÒiÎóŸ^x®)a–CÒŽ>*	Éjpÿ ôÿ év2ëú”²¤F`”eåˆ¶{ãnHÏ|W¶©¡”‚È"¼·â†§}nðØØß]¼ÓÁå›+	mb–GcµIó‰}¬N>Až4û(í¡M[Àºî¦èXÞê÷‹;$·Ø
+í§EÊxxÊžÖ|Ö;ëí{HÓÉú­…©D×˜üÍgø]¿ÕxƒLœúAp²ÿ è$Öu†¡ é€á‹Ý(ŽÉ£3ÿ …YGç[V~(Ð®åX`Õ¬Lç¤-2¤Ÿ÷ÁÃÊ´9£ñn‹# —NÙé‹yüöÖè9)h¦#ªøÊ2ío D·óŽäâÏ»Ñ1\ñ¶–êì^j×yv>éa„‹Ù úõ4]]Úi¶àÏ$pD§ä)Ö:v½®({H—K²n“Ý.daê±ÿ ‰Ù¨½Ïb4éa×3ûÿ È™UIb ÉªßÚ6…ö$ë#ÿ v?œþ™­ë?‡úZ‘&©5Þ§7\Ï)TÙW{×;ãÛÃ>!Óµ6Þ+m>óýhâ@¨²p=Tÿ ¹ïCºW
+xªsš‚¾¥â)dÐ×Sáù|ÝÐžªž[}Wå?¨®^·|0Dš}Ä2©+.=˜?«u•âsþ#ÑÒËSŠòÞ.RO´Á´ày‹œ¡A8ô±Òº»(lîm£¸´Ü±J¡Ç”ì€çØf¢šÜÞXÏc#æâl‘ºžèÇù\äì.¤‰Øi×o&I–U»åOCŸLT‰'R>hîÒÚbÁb0Y¾bG¦O8¬	šæ÷Qû‡/ZÜBÒ¦(%Š8@ñž8 9=ÃÕŸU¾…Uµ(…?r².y]ËóŽ3šê<3­é†tØ­Æ™2%«€¸ÝùúŠk]Îzñ%u¨Â¦Ý·™â]r}¥A¾‰¡#ÆÕúàŸzŒø@YÞÕõ-(Ž‰~Ñn}¼©wmÈRºš+Ksm»³˜¾³¤qâ=n­‡[ý-€÷x]Gû¦O|VÌ2iÚæœ’ÄÖ·ö2Œ«²ÆßÌUêÃ¾ðôMw%ö•3éš“œ¼Ð€Rcÿ Mcû¯éžŒ(åðÆ‘üyÚ›k^Ø¨Œ¨?^°³’×p{ë«”?ugØvýPOâMA¤Ýj#Ûê¶KÑŒ‰àmÐÌ=W?2ŸU#Œð[Ö |µã?Ü^ÊóøŠ{ã³-Ã1XƒÇqïøW­þÎsÝÜüÐ'¿ž[‰äóÎù\³çÈIç äx®"ÜŒ’ÆÃ¨Á’ÀÝi q@“ög¡998_áçû¤Vq\§¯Š ë{ÑÜôšÀñÞ–u
+êñ®éÕ<è@ëæ'Ì£ñÆ>„Õm;Åöìë¯	Óæ'Øî…³öüq]8 €A„UèÏ2P)k£<ÃGº[Ý.Öå[p’0sê{×CáwÅÝì}ŠFãëóü…r>ìƒPÓº-•Ü° ÿ `1ú
+é4I|­nzMÇøðÃôV¨è{3÷áuÕ_õ:7‹n “î
+­²~ñÈ+ÿ ³~uÄø‹JÕâñA:!¶hîã3&b»ä\
+qŒ‘ƒÉçž+¿  Êñ.èlþ5&[	È©QÃÅ
+9c9GáÜá“Yû=ÒÚk6³i—‡¢N0­ëµº0÷õ¥<0ÝC²dY#npyük¾½³²Õ¬L7Cuk(lŠO¡ã\&©áKýuÇ‡šKÛËØJÙ‘ý3c÷¿Ý<õäœ
+¦˜écc-'£üØêš¶‘ŸÚcþXNß¼QþË÷ú6k­Ðõûd2Û;%ÂÉo(Û"}Gqî2+†Óu}F2ÙóƒµÑ†pGcEí¯šVhÃyÍÉÃ)þ£Ú’vØº¸XTÕhÏO¢³ü?ý©¢ÙÞ•
+óF¨è£ÌÐ«<–¬ìÂŠ( GÈö·ú†ƒ=Äšeã­´hX(ùà@ŠÃÄŒ1eÆ8Ç#šôo ø®iðM=’ÂÏ‘ŠHFF@úó^'?Ã»F²o6ûU"»ƒ$‘²Œ7Qýî[ùóÅ{§Ã
+?xGO²P<ÁgoïÎ\þ5„wÐ÷ ê_ÞVGI",ˆÉ"†F Œƒ[ ™ÓûKOÜZWF„Šà£Øqõ¬šÓðÍþ¸ÿ ôÒ$ü“?Öµêe‹þ9ûøþËñ[ˆp.cŠäø_æ¬É/Ùæµ¸éäÎŒOû$íoÐš_§“ñÂ^Ÿh±1}ŒÇÿ fì^}œñwt*>¸©}Q¦óRÿ ®‡MuWFG «{Š­¤Üý³K´¹ï,JçêG55Ä¾L{ü·p:„ zã¿áÍ-šv)øBFM:M>RLº|¦Ûž¥gþø+ùÝ®nÎU‡Å	4N­m©[í§ ÉÈüÕ›þù®’®;u£i³Ï~#é–°_iz…–ë}Jæé`‘¢àL›I%Ç|mþ•®"‰äoºŠXýOã)¾×ã+aÊXÚ´Íþô‡ p?fêè×Ég"KÉRÙHí¸€Oà2
+—»=</»E9m«;oDÐøKKg„JAí¿æÇë[”È£X£HãP¨€*ÐÚŸVy|Îì(¢Š|uªG.£â4í1ÉŽÉ–îý¥pD1ùƒ§®[#åî¨à×¿E·Ë_,‚˜ÇLVnŸáý*À“mc»³•±õ'Öµ 
+   ;
+Î*Ç¾£fÝ÷µ>ÞëgþžTã‚²C)fPÀ²õéZ¿r&Öÿ ëåOþ8*ºœø¿á2‡Ä¥Ù¯øfã <Y÷o/ô5\ø°›t*è-µÝ *ëüÊÕ:]CïKÑ³oÁÒgG0w·™âü3¹ñÖ­sl“•bÒ$‹÷]©ÐýEsÞ/R½„ô•eú•¿M•ÔRDÕÒlãüKo{¦ˆ5(J¶“­Ëˆ†7Û—±*[æ^¹äw½´ñ\ÛEq‡†TŒ:# Õr=+ƒñ£.c{áÛ`áï& â8¤'Ìí·÷‡¥	ò˜Õƒ­nU©SO¸þÒ¿Õ5`r——Ê>± Ø‡ñ?iøv}âø›‡N„ÊOý4|ªûçyªÖð­­ªC
+ü±¨U¾+ká¹ì7â^5#rÏr§øAá1þÎÐ?ÔÑÑ‰ýÝGÐì(¢Š³È
+(¢€?ÿÙ"
+        ["Communicate"]=>
+        string(2) "en"
+        ["ICQ"]=>
+        NULL
+        ["AOL"]=>
+        NULL
+        ["Jabber"]=>
+        NULL
+        ["EMail"]=>
+        NULL
+        ["Location"]=>
+        NULL
+        ["PGP"]=>
+        string(2053) "-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: Benutzer-ID:	aaaaa aaaaaa <abc@defg.com>
+Comment: Erstellt:	26.07.2020 17:15
+Comment: Typ:	2.048-bit RSA (geheimer SchlÃ¼ssel verfÃ¼gbar)
+Comment: Verwendung:	VerschlÃ¼sselung, Benutzerkennungen beglaubigen
+Comment: Fingerabdruck:	E021E5ADF157D1113103799D485954D4C36F6E71
+
+
+mQENBF8dnf0BCADEfaDIQssiKkJrlYv7ttEEocGFzeSqRDqfkhIMpE8aBvm1dNqH
+hUsRG3/XH8iHRpdxne7XR6kP1XIKVzJa8I2Uj7dbiXKmT8c+5ETen2gu5dh3Yhbl
+J2ti5PYLED242HbWUREpGXi4a+6GBJPruPM4hYXhyABiEwdnQF0Y9lJuM7rHNohs
+Vd3b/ykuAl/yWFmpoeWuHKjs2FuvtClMSzigvUBfft57CLOU7eKPPgAcW3V1Nv6V
+fWTxt69ubAjLiXFvkJW9ueZ3D0mh00FY+gCRuSt7xKNpZNiVuEslfBD4U+uRRb47
+5kCddyks1BaGwKUF/lK2DBWBtjEBPRoV7ae/ABEBAAG0G2FhYWFhIGFhYWFhYSA8
+YWJjQGRlZmcuY29tPokBTgQTAQgAOBYhBOAh5a3xV9ERMQN5nUhZVNTDb25xBQJf
+HZ39AhsBBQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJEEhZVNTDb25xt+kH+wTP
+s+MxFB32Q8qhg+f3HfLt1jSlUQT3FRkJL1zziBT0dMMfvWZ8NPrqVAFk/KuhuJJ1
+rvFmYDVpPVFTDG5wipplRXp2pj9C4CJYeL9fvbXgYWKevG3UDEeMxZc0vm6Ose4n
+IVADeQgA4HGJXYvs+QCuqr5cbQzCYGvPG7AaBEoAfwx8Gb6bKJIF6ESkeu62EkOV
+XB/464pM3X3Gf8UIvGYU2+LBN3/o+Q6EfcSoQI4F8nKUiWgCCkWEPUC9Qf5VsJoU
+JqfLg6im9n6Xw4rX8Gjg2G5vtgyZb4gJLWbImbRYDncZOHJj0sgt34T6EX0QtlHk
+a09OED2sJO0nm1iyHe25AQ0EXx2d/QEIANoYjHjTVMqL/34xleZPQwRp1OmvfxmT
+A3IPaV7spyDt+u61AxC/abDuTD1bxPF8pmHhEwrq47pz6nVrfnIrjEQ4KvgnVNaL
+1oEqr2EycqjbqX1YFev9Vm0EjUcCy98POoBY74KNlZU8Paydk8oowQ4UOHCtiuJ1
+JnYTn3Pz6f4iCoHKSyLvU0+y07FyqYmIBu1S/Q0HREfOHC9wuQkl2kBLT1g+az6E
+aGzVMmY/CadXKI/dRTg05hTyigJqk5qjU9cyDnJ2ICAVVictitEZqRuVr8yS0paj
+PlNAAoAr4HbjiRkx/vDNrKZgFtgGhn6vy7Z1GiLqqXd0C9deUemVizEAEQEAAYkB
+NgQYAQgAIBYhBOAh5a3xV9ERMQN5nUhZVNTDb25xBQJfHZ39AhsMAAoJEEhZVNTD
+b25x4GwH/jKezlW6Z7S/oHuFr6ZF63KCm3sPUVwPlhQszF30h6JoIfT2qfU175x+
++0iTXiwtaACqtDPruHUNxkDXcK8WtREXLAkIs3yv0cjaPXrT0+9NfBdaleDyBimT
+F+2nxnpZjEufvsw/HsqZTprr10Yx3gTK03Z3KX0sJZUyLOyGDamdEb6E3GuMP3fH
+nxw3Mkbd+alD4zqzrHF08Ob0tN4p5a6rqKynwami+G3mpMYEODSe+p0F4zddm4VO
+ubh5e8ol4kk5KusgBPALYj7UontqT9+s8OuBB8hwtwirDEKUYtvFJ2MVJH/AnA7e
+0Vez8y56jlEYPWWU89Zi/gaMavCCjV8=
+=np8p
+-----END PGP PUBLIC KEY BLOCK-----"
+        ["2FA"]=>
+        int(0)
+        ["Scoring"]=>
+        float(3)
+        ["UserRank"]=>
+        int(2)
+        ["Orders"]=>
+        int(7)
+        ["Sales"]=>
+        int(0)
+        ["Disputes"]=>
+        int(0)
+        ["FeedbackRate"]=>
+        float(75)
+        ["VendorSince"]=>
+        NULL
+        ["VendorInvited"]=>
+        int(0)
+        ["VendorRank"]=>
+        int(1)
+        ["VendorTerms"]=>
+        NULL
+        ["VendorRefunds"]=>
+        NULL
+        ["VendorFee"]=>
+        float(5)
+        ["CashFlow"]=>
+        float(5.24)
+        ["StaffProcessedMessages"]=>
+        int(0)
+        ["StaffProcessedDisputes"]=>
+        int(0)
+      }
+      ["Username":protected]=>
+      string(8) "rapunzel"
+      ["Registered":protected]=>
+      int(1618988309)
+      ["UserID":protected]=>
+      int(15)
+      ["Currency":protected]=>
+      string(3) "EUR"
+      ["reason":protected]=>
+      NULL
+      ["twoFA":protected]=>
+      bool(false)
+      ["OtherUserData":protected]=>
+      array(0) {
+      }
+    }
+    ["Language"]=>
+    &object(Language)#7 (2) {
+      ["path_cache":"Language":private]=>
+      string(45) "/var/www/vhosts/market1304.de/httpdocs/cache/"
+      ["language":"Language":private]=>
+      string(2) "en"
+    }
+    ["Pages"]=>
+    &object(Pages)#2 (8) {
+      ["path":"Pages":private]=>
+      string(45) "/var/www/vhosts/market1304.de/httpdocs/pages/"
+      ["error_path":"Pages":private]=>
+      string(51) "/var/www/vhosts/market1304.de/httpdocs/error_pages/"
+      ["uri_page":"Pages":private]=>
+      string(14) "litecoinwallet"
+      ["uri_realpath":"Pages":private]=>
+      string(22) "/litecoinwallet/create"
+      ["uri_path":"Pages":private]=>
+      array(1) {
+        [0]=>
+        string(6) "create"
+      }
+      ["uri_query":"Pages":private]=>
+      string(0) ""
+      ["suppress_html":"Pages":private]=>
+      bool(false)
+      ["layout":"Pages":private]=>
+      string(0) ""
+    }
+    ["_SESSION"]=>
+    &array(3) {
+      ["Language"]=>
+      string(2) "en"
+      ["Market"]=>
+      array(4) {
+        ["page"]=>
+        int(1)
+        ["perpage"]=>
+        int(15)
+        ["Layer"]=>
+        int(0)
+        ["searchSQL"]=>
+        string(273) "(SELECT VendorRank FROM user WHERE user.UserID = items.Vendor) >= 1 AND Active = 1 AND Blocked = 0 AND (SELECT BlockTransactions FROM user WHERE UserID = Vendor) = 0 AND (SELECT OnHoliday FROM user WHERE UserID = Vendor) = 0 ORDER BY IsPromoted DESC, Price ASC, ItemID DESC"
+      }
+      ["Captcha_Token"]=>
+      string(5) "3vNUf"
+    }
+    ["QR_BASEDIR"]=>
+    string(51) "/var/www/vhosts/market1304.de/httpdocs/libs/qrcode/"
+    ["Language_REALFILE"]=>
+    &string(63) "/var/www/vhosts/market1304.de/httpdocs/pages/litecoinwallet.php"
+  }
+  ["Libs"]=>
+  object(Libs)#1 (2) {
+    ["path":"Libs":private]=>
+    string(44) "/var/www/vhosts/market1304.de/httpdocs/libs/"
+    ["libs_loaded":"Libs":private]=>
+    array(22) {
+      ["MiscFunctions"]=>
+      bool(true)
+      ["MySQLiExt"]=>
+      bool(true)
+      ["HTMLHead"]=>
+      bool(true)
+      ["HTMLFoot"]=>
+      bool(true)
+      ["User"]=>
+      bool(true)
+      ["Language"]=>
+      bool(true)
+      ["Currencies"]=>
+      bool(true)
+      ["Forms"]=>
+      bool(true)
+      ["Password"]=>
+      bool(true)
+      ["Captcha"]=>
+      bool(true)
+      ["Alerts"]=>
+      bool(true)
+      ["Categories"]=>
+      bool(true)
+      ["Status"]=>
+      bool(true)
+      ["Market"]=>
+      bool(true)
+      ["Messages"]=>
+      bool(true)
+      ["gpg"]=>
+      bool(true)
+      ["Pagination"]=>
+      bool(true)
+      ["BTC"]=>
+      bool(true)
+      ["LTC"]=>
+      bool(true)
+      ["XMR"]=>
+      bool(true)
+      ["AccountSupport"]=>
+      bool(true)
+      ["Ranking"]=>
+      bool(true)
+    }
+  }
+  ["DB"]=>
+  &object(MySQLiExt)#3 (18) {
+    ["affected_rows"]=>
+    int(1)
+    ["client_info"]=>
+    string(14) "mysqlnd 7.4.21"
+    ["client_version"]=>
+    int(70421)
+    ["connect_errno"]=>
+    int(0)
+    ["connect_error"]=>
+    NULL
+    ["errno"]=>
+    int(0)
+    ["error"]=>
+    string(0) ""
+    ["error_list"]=>
+    array(0) {
+    }
+    ["field_count"]=>
+    int(0)
+    ["host_info"]=>
+    string(20) "127.0.0.1 via TCP/IP"
+    ["info"]=>
+    string(40) "Rows matched: 1  Changed: 1  Warnings: 0"
+    ["insert_id"]=>
+    int(0)
+    ["server_info"]=>
+    string(38) "5.5.5-10.1.48-MariaDB-0ubuntu0.18.04.1"
+    ["server_version"]=>
+    int(100148)
+    ["sqlstate"]=>
+    string(5) "00000"
+    ["protocol_version"]=>
+    int(10)
+    ["thread_id"]=>
+    int(1135156)
+    ["warning_count"]=>
+    int(0)
+  }
+  ["HTMLHead"]=>
+  &object(HTMLHead)#4 (3) {
+    ["path":"HTMLHead":private]=>
+    string(43) "/var/www/vhosts/market1304.de/httpdocs/nav/"
+    ["nav":"HTMLHead":private]=>
+    string(12) "top_customer"
+    ["additionalNavs":"HTMLHead":private]=>
+    array(1) {
+      [0]=>
+      string(10) "cat_search"
+    }
+  }
+  ["HTMLFoot"]=>
+  &object(HTMLFoot)#5 (2) {
+    ["path":"HTMLFoot":private]=>
+    string(44) "/var/www/vhosts/market1304.de/httpdocs/foot/"
+    ["foot":"HTMLFoot":private]=>
+    string(6) "normal"
+  }
+  ["User"]=>
+  &object(User)#6 (12) {
+    ["cookie":protected]=>
+    bool(true)
+    ["cookie_name":protected]=>
+    string(11) "marketplace"
+    ["cookie_value":protected]=>
+    array(4) {
+      ["UserID"]=>
+      int(15)
+      ["LoginKey"]=>
+      string(32) "8ef7703ee5d01a50b57b3cb5653ffdf5"
+      ["RememberLogin"]=>
+      bool(false)
+      ["SessionKey"]=>
+      string(32) "d361bf4a213d598ff2ec6073a571d269"
+    }
+    ["Name":protected]=>
+    string(0) ""
+    ["Data":protected]=>
+    array(41) {
+      ["UserID"]=>
+      int(15)
+      ["Username"]=>
+      string(8) "rapunzel"
+      ["Password"]=>
+      string(60) "$2y$10$enULTuF2FvMKko/4dlkiUOx5myVGr9UyMXSPhjjFwj.haIoFkHkqi"
+      ["Role"]=>
+      string(4) "user"
+      ["BlockTransactions"]=>
+      int(0)
+      ["BlockLogin"]=>
+      int(0)
+      ["OnHoliday"]=>
+      int(0)
+      ["Registered"]=>
+      int(1618988309)
+      ["LoginKey"]=>
+      string(32) "8ef7703ee5d01a50b57b3cb5653ffdf5"
+      ["Currency"]=>
+      string(3) "EUR"
+      ["WC"]=>
+      string(4) "1234"
+      ["APP"]=>
+      string(15) "Hello Rapunzel!"
+      ["MPP"]=>
+      string(60) "$2y$10$f0fneKMf7MIgShxkglp/TeRRCuOUFlL7Kbv2YcpQPw2YnCi5.c1aG"
+      ["XMR"]=>
+      float(0.04148965)
+      ["BTC"]=>
+      float(0)
+      ["LTC"]=>
+      float(0.09448467)
+      ["Avatar"]=>
+      string(6) "purple"
+      ["AvatarCustom"]=>
+      string(4743) "ÿØÿà JFIF  ` `  ÿþ ;CREATOR: gd-jpeg v1.0 (using IJG JPEG v80), quality = 80
+ÿÛ C 
+
+
+		
+%# , #&')*)-0-(0%()(ÿÛ C
+
+
+
+(((((((((((((((((((((((((((((((((((((((((((((((((((ÿÀ  € €" ÿÄ           	
+ÿÄ µ   } !1AQa"q2‘¡#B±ÁRÑð$3br‚	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùúÿÄ        	
+ÿÄ µ  w !1AQaq"2B‘¡±Á	#3RðbrÑ
+$4á%ñ&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÚ   ? ú^Š(®‘…Q@Q@Q@‡¬x–ÓM»û Š{»°4Và€ô,X€3éœÔš7ˆlµYZÄ¶÷J7'P¯Q‚ABhº/ÙÏ—šÚQEQ@Q@V[ëF¸0-ÔppcÙúu¬/ÝÍ›imo#D×·"t8`›YÛ±!1ø×(Ö6Â±½½º§@
+ŠMt0¾Ö<×±ê4WšMã4ð†–Óê}æœHHÙ[sDÇ ,ƒß’ƒÆd~2²×â3\ëpˆ?gI|¨Ðz…¿aG1Wj|¤zî«§Ø’/o­mÈçÌ©üÍxGÄ¯SFMáŸöµêñ-òÄeëš½ï—Øõ®¥eÐÒ	"Ytå‰Á¡Ð®k;DèfÑN—g;ˆ">¤“’~µ-³©ÇùŽá7‰þ$OñÂëÆzä:ó~Ô·{"‹[mÂ€0wè;}kéÛ+û;åÝewop¾±Hùò×Ö4»¥T[û2ÁÕ±ç¡èAìkÊüK¦üH“VÔSG¼°ºÓgÞÚå|¿6c ãp qÆzqI;
+¦1^ëoñ=cE¼·¿×õ«H®¡}DjS$Ñîñ¯˜Ê›†s‹ÇÒµµ5í§‰aæàÉñ¬Œ1ÏQõæ¸?…¾‹ÂR™®¥¸Öï$ó®n˜2–nxRy e¹<œ’}§Šüao ¿úR´·Âî™IÇ¾N@¢çl/.}GªøgRmSIŽi”-Ê1Še^ÔàãØðG±­Zù¯Á?ï´ÍUày!¿‚òçÌ0GÝ™À8rA<Æ;WÒ•qwG7'Ë°QEÉ
+(¢€9ˆ¶ÒÉáñy—“O™nöŽêWÿ ÇYáXú¡wPÝ³³K_3û¹ÁûqŠïÏ#šó]cÃšŸ‡îå›A¶7ÚLŒXÚ!ÃÛ“Ô(î¾Ã‘ÓêdŽì-h¤éÏDËZËYêw/åÛ£[2²q>qÔ tÉëŸN¾ñá”ÖB]GÃHòÛšKAËÇîÈöëõíéßÚ—šmøÿ „ŠÊ]>;•ÜÈSŒñO>ÇÚ>©x³3ÙÉ¥Þ[žDfsŠ=:0cÿ |ÔÝ•(Â¬4ÕwZŸ9éš•Ói¯
+du8lzÛ5©1Û7{œ×¦x“Kðö°d—Q·¹ÐoXäÝ:(ŸVu&?Í?…qÚÏõë8ÔÚE©lü¤Ö‡$p¡4*¦¤^šÿ ]Ž2`¬ÙÚáOŽG·dR¼L½ŒT—^©]6ùä·pÐãš’ÏÃÚ®«"Ä–7knHó%1•Uìx#	7dµ4t¯xì.]uYšÆ$2ù’nrqžÇ<t+˜’íî·Os+M4„³3µô7…¬ü?á½$Øµõ„’Ê¸¸&E!¸ÆÜt0}Éäšó½wáˆºÔå
+ê:|–2|ëÏóÄ{¨À9™#úÑuÜí©ƒ­Èž¯ô3þØOâ&‰•fóz„¿¥}—^YðWÀZ7†í_P‚í¯õf_.WtòþÏê2H>äœöâ½N´Š²99\taEU QE QEUÔµM2Ñî¯çH ^¬Ç©ô©>Ãš ¥©¦©3ËVZeÕ› \LÊ[×#c
+áõFÐ­nZ;ßxa¦S‡KKòè@€`ýMI®x‚ïVV/$šfN‰î>¸åAþèä÷ë›oy´½&ñã|±@úù…Iú€j[¹ÝK÷›·æe&­e§øŽål4«Øtë¨UHBNÔ•`6f¡ÆÉ<U+ÛÏZ³\Xê2hw%²À)¶ÞIêÐJ¡\ú»½kÝÇ©‘¨G¦éðK;¤k–g)ŽAQ¯ÞíVõmÄWþ–àË¦:H¢O²ý‘ä2G{È:ŽØö¨gb\‘I»˜öõÖš|½EúÅÔ4šzîM¾K(ã¨, ê@¯IÒt½;PÒ–f’B˜Î$ƒÆTŒ|„qøõút¯+ƒÂPiž!´¸²Ô4EÓ¯Ã›{ÈleˆÃ(Æc,“«¯Œ·®G¯aÑ4¨t«eKdˆ4Ÿ=ÄŠe“ o'$“ÇRI<dšfe*Ò•šÑ2øÛÃ³xg_žÆPL9Ý„}ô=ô5„…ƒ™Ûkê/ˆ:>—«hnºª.ôÿ Pàá•ÏLO_jnà/èŒ’ZX¬—ÒiÎóŸ^x®)a–CÒŽ>*	Éjpÿ ôÿ év2ëú”²¤F`”eåˆ¶{ãnHÏ|W¶©¡”‚È"¼·â†§}nðØØß]¼ÓÁå›+	mb–GcµIó‰}¬N>Až4û(í¡M[Àºî¦èXÞê÷‹;$·Ø
+í§EÊxxÊžÖ|Ö;ëí{HÓÉú­…©D×˜üÍgø]¿ÕxƒLœúAp²ÿ è$Öu†¡ é€á‹Ý(ŽÉ£3ÿ …YGç[V~(Ð®åX`Õ¬Lç¤-2¤Ÿ÷ÁÃÊ´9£ñn‹# —NÙé‹yüöÖè9)h¦#ªøÊ2ío D·óŽäâÏ»Ñ1\ñ¶–êì^j×yv>éa„‹Ù úõ4]]Úi¶àÏ$pD§ä)Ö:v½®({H—K²n“Ý.daê±ÿ ‰Ù¨½Ïb4éa×3ûÿ È™UIb ÉªßÚ6…ö$ë#ÿ v?œþ™­ë?‡úZ‘&©5Þ§7\Ï)TÙW{×;ãÛÃ>!Óµ6Þ+m>óýhâ@¨²p=Tÿ ¹ïCºW
+xªsš‚¾¥â)dÐ×Sáù|ÝÐžªž[}Wå?¨®^·|0Dš}Ä2©+.=˜?«u•âsþ#ÑÒËSŠòÞ.RO´Á´ày‹œ¡A8ô±Òº»(lîm£¸´Ü±J¡Ç”ì€çØf¢šÜÞXÏc#æâl‘ºžèÇù\äì.¤‰Øi×o&I–U»åOCŸLT‰'R>hîÒÚbÁb0Y¾bG¦O8¬	šæ÷Qû‡/ZÜBÒ¦(%Š8@ñž8 9=ÃÕŸU¾…Uµ(…?r².y]ËóŽ3šê<3­é†tØ­Æ™2%«€¸ÝùúŠk]Îzñ%u¨Â¦Ý·™â]r}¥A¾‰¡#ÆÕúàŸzŒø@YÞÕõ-(Ž‰~Ñn}¼©wmÈRºš+Ksm»³˜¾³¤qâ=n­‡[ý-€÷x]Gû¦O|VÌ2iÚæœ’ÄÖ·ö2Œ«²ÆßÌUêÃ¾ðôMw%ö•3éš“œ¼Ð€Rcÿ Mcû¯éžŒ(åðÆ‘üyÚ›k^Ø¨Œ¨?^°³’×p{ë«”?ugØvýPOâMA¤Ýj#Ûê¶KÑŒ‰àmÐÌ=W?2ŸU#Œð[Ö |µã?Ü^ÊóøŠ{ã³-Ã1XƒÇqïøW­þÎsÝÜüÐ'¿ž[‰äóÎù\³çÈIç äx®"ÜŒ’ÆÃ¨Á’ÀÝi q@“ög¡998_áçû¤Vq\§¯Š ë{ÑÜôšÀñÞ–u
+êñ®éÕ<è@ëæ'Ì£ñÆ>„Õm;Åöìë¯	Óæ'Øî…³öüq]8 €A„UèÏ2P)k£<ÃGº[Ý.Öå[p’0sê{×CáwÅÝì}ŠFãëóü…r>ìƒPÓº-•Ü° ÿ `1ú
+é4I|­nzMÇøðÃôV¨è{3÷áuÕ_õ:7‹n “î
+­²~ñÈ+ÿ ³~uÄø‹JÕâñA:!¶hîã3&b»ä\
+qŒ‘ƒÉçž+¿  Êñ.èlþ5&[	È©QÃÅ
+9c9GáÜá“Yû=ÒÚk6³i—‡¢N0­ëµº0÷õ¥<0ÝC²dY#npyük¾½³²Õ¬L7Cuk(lŠO¡ã\&©áKýuÇ‡šKÛËØJÙ‘ý3c÷¿Ý<õäœ
+¦˜écc-'£üØêš¶‘ŸÚcþXNß¼QþË÷ú6k­Ðõûd2Û;%ÂÉo(Û"}Gqî2+†Óu}F2ÙóƒµÑ†pGcEí¯šVhÃyÍÉÃ)þ£Ú’vØº¸XTÕhÏO¢³ü?ý©¢ÙÞ•
+óF¨è£ÌÐ«<–¬ìÂŠ( GÈö·ú†ƒ=Äšeã­´hX(ùà@ŠÃÄŒ1eÆ8Ç#šôo ø®iðM=’ÂÏ‘ŠHFF@úó^'?Ã»F²o6ûU"»ƒ$‘²Œ7Qýî[ùóÅ{§Ã
+?xGO²P<ÁgoïÎ\þ5„wÐ÷ ê_ÞVGI",ˆÉ"†F Œƒ[ ™ÓûKOÜZWF„Šà£Øqõ¬šÓðÍþ¸ÿ ôÒ$ü“?Öµêe‹þ9ûøþËñ[ˆp.cŠäø_æ¬É/Ùæµ¸éäÎŒOû$íoÐš_§“ñÂ^Ÿh±1}ŒÇÿ fì^}œñwt*>¸©}Q¦óRÿ ®‡MuWFG «{Š­¤Üý³K´¹ï,JçêG55Ä¾L{ü·p:„ zã¿áÍ-šv)øBFM:M>RLº|¦Ûž¥gþø+ùÝ®nÎU‡Å	4N­m©[í§ ÉÈüÕ›þù®’®;u£i³Ï~#é–°_iz…–ë}Jæé`‘¢àL›I%Ç|mþ•®"‰äoºŠXýOã)¾×ã+aÊXÚ´Íþô‡ p?fêè×Ég"KÉRÙHí¸€Oà2
+—»=</»E9m«;oDÐøKKg„JAí¿æÇë[”È£X£HãP¨€*ÐÚŸVy|Îì(¢Š|uªG.£â4í1ÉŽÉ–îý¥pD1ùƒ§®[#åî¨à×¿E·Ë_,‚˜ÇLVnŸáý*À“mc»³•±õ'Öµ 
+   ;
+Î*Ç¾£fÝ÷µ>ÞëgþžTã‚²C)fPÀ²õéZ¿r&Öÿ ëåOþ8*ºœø¿á2‡Ä¥Ù¯øfã <Y÷o/ô5\ø°›t*è-µÝ *ëüÊÕ:]CïKÑ³oÁÒgG0w·™âü3¹ñÖ­sl“•bÒ$‹÷]©ÐýEsÞ/R½„ô•eú•¿M•ÔRDÕÒlãüKo{¦ˆ5(J¶“­Ëˆ†7Û—±*[æ^¹äw½´ñ\ÛEq‡†TŒ:# Õr=+ƒñ£.c{áÛ`áï& â8¤'Ìí·÷‡¥	ò˜Õƒ­nU©SO¸þÒ¿Õ5`r——Ê>± Ø‡ñ?iøv}âø›‡N„ÊOý4|ªûçyªÖð­­ªC
+ü±¨U¾+ká¹ì7â^5#rÏr§øAá1þÎÐ?ÔÑÑ‰ýÝGÐì(¢Š³È
+(¢€?ÿÙ"
+      ["Communicate"]=>
+      string(2) "en"
+      ["ICQ"]=>
+      NULL
+      ["AOL"]=>
+      NULL
+      ["Jabber"]=>
+      NULL
+      ["EMail"]=>
+      NULL
+      ["Location"]=>
+      NULL
+      ["PGP"]=>
+      string(2053) "-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: Benutzer-ID:	aaaaa aaaaaa <abc@defg.com>
+Comment: Erstellt:	26.07.2020 17:15
+Comment: Typ:	2.048-bit RSA (geheimer SchlÃ¼ssel verfÃ¼gbar)
+Comment: Verwendung:	VerschlÃ¼sselung, Benutzerkennungen beglaubigen
+Comment: Fingerabdruck:	E021E5ADF157D1113103799D485954D4C36F6E71
+
+
+mQENBF8dnf0BCADEfaDIQssiKkJrlYv7ttEEocGFzeSqRDqfkhIMpE8aBvm1dNqH
+hUsRG3/XH8iHRpdxne7XR6kP1XIKVzJa8I2Uj7dbiXKmT8c+5ETen2gu5dh3Yhbl
+J2ti5PYLED242HbWUREpGXi4a+6GBJPruPM4hYXhyABiEwdnQF0Y9lJuM7rHNohs
+Vd3b/ykuAl/yWFmpoeWuHKjs2FuvtClMSzigvUBfft57CLOU7eKPPgAcW3V1Nv6V
+fWTxt69ubAjLiXFvkJW9ueZ3D0mh00FY+gCRuSt7xKNpZNiVuEslfBD4U+uRRb47
+5kCddyks1BaGwKUF/lK2DBWBtjEBPRoV7ae/ABEBAAG0G2FhYWFhIGFhYWFhYSA8
+YWJjQGRlZmcuY29tPokBTgQTAQgAOBYhBOAh5a3xV9ERMQN5nUhZVNTDb25xBQJf
+HZ39AhsBBQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJEEhZVNTDb25xt+kH+wTP
+s+MxFB32Q8qhg+f3HfLt1jSlUQT3FRkJL1zziBT0dMMfvWZ8NPrqVAFk/KuhuJJ1
+rvFmYDVpPVFTDG5wipplRXp2pj9C4CJYeL9fvbXgYWKevG3UDEeMxZc0vm6Ose4n
+IVADeQgA4HGJXYvs+QCuqr5cbQzCYGvPG7AaBEoAfwx8Gb6bKJIF6ESkeu62EkOV
+XB/464pM3X3Gf8UIvGYU2+LBN3/o+Q6EfcSoQI4F8nKUiWgCCkWEPUC9Qf5VsJoU
+JqfLg6im9n6Xw4rX8Gjg2G5vtgyZb4gJLWbImbRYDncZOHJj0sgt34T6EX0QtlHk
+a09OED2sJO0nm1iyHe25AQ0EXx2d/QEIANoYjHjTVMqL/34xleZPQwRp1OmvfxmT
+A3IPaV7spyDt+u61AxC/abDuTD1bxPF8pmHhEwrq47pz6nVrfnIrjEQ4KvgnVNaL
+1oEqr2EycqjbqX1YFev9Vm0EjUcCy98POoBY74KNlZU8Paydk8oowQ4UOHCtiuJ1
+JnYTn3Pz6f4iCoHKSyLvU0+y07FyqYmIBu1S/Q0HREfOHC9wuQkl2kBLT1g+az6E
+aGzVMmY/CadXKI/dRTg05hTyigJqk5qjU9cyDnJ2ICAVVictitEZqRuVr8yS0paj
+PlNAAoAr4HbjiRkx/vDNrKZgFtgGhn6vy7Z1GiLqqXd0C9deUemVizEAEQEAAYkB
+NgQYAQgAIBYhBOAh5a3xV9ERMQN5nUhZVNTDb25xBQJfHZ39AhsMAAoJEEhZVNTD
+b25x4GwH/jKezlW6Z7S/oHuFr6ZF63KCm3sPUVwPlhQszF30h6JoIfT2qfU175x+
++0iTXiwtaACqtDPruHUNxkDXcK8WtREXLAkIs3yv0cjaPXrT0+9NfBdaleDyBimT
+F+2nxnpZjEufvsw/HsqZTprr10Yx3gTK03Z3KX0sJZUyLOyGDamdEb6E3GuMP3fH
+nxw3Mkbd+alD4zqzrHF08Ob0tN4p5a6rqKynwami+G3mpMYEODSe+p0F4zddm4VO
+ubh5e8ol4kk5KusgBPALYj7UontqT9+s8OuBB8hwtwirDEKUYtvFJ2MVJH/AnA7e
+0Vez8y56jlEYPWWU89Zi/gaMavCCjV8=
+=np8p
+-----END PGP PUBLIC KEY BLOCK-----"
+      ["2FA"]=>
+      int(0)
+      ["Scoring"]=>
+      float(3)
+      ["UserRank"]=>
+      int(2)
+      ["Orders"]=>
+      int(7)
+      ["Sales"]=>
+      int(0)
+      ["Disputes"]=>
+      int(0)
+      ["FeedbackRate"]=>
+      float(75)
+      ["VendorSince"]=>
+      NULL
+      ["VendorInvited"]=>
+      int(0)
+      ["VendorRank"]=>
+      int(1)
+      ["VendorTerms"]=>
+      NULL
+      ["VendorRefunds"]=>
+      NULL
+      ["VendorFee"]=>
+      float(5)
+      ["CashFlow"]=>
+      float(5.24)
+      ["StaffProcessedMessages"]=>
+      int(0)
+      ["StaffProcessedDisputes"]=>
+      int(0)
+    }
+    ["Username":protected]=>
+    string(8) "rapunzel"
+    ["Registered":protected]=>
+    int(1618988309)
+    ["UserID":protected]=>
+    int(15)
+    ["Currency":protected]=>
+    string(3) "EUR"
+    ["reason":protected]=>
+    NULL
+    ["twoFA":protected]=>
+    bool(false)
+    ["OtherUserData":protected]=>
+    array(0) {
+    }
+  }
+  ["Language"]=>
+  &object(Language)#7 (2) {
+    ["path_cache":"Language":private]=>
+    string(45) "/var/www/vhosts/market1304.de/httpdocs/cache/"
+    ["language":"Language":private]=>
+    string(2) "en"
+  }
+  ["Pages"]=>
+  &object(Pages)#2 (8) {
+    ["path":"Pages":private]=>
+    string(45) "/var/www/vhosts/market1304.de/httpdocs/pages/"
+    ["error_path":"Pages":private]=>
+    string(51) "/var/www/vhosts/market1304.de/httpdocs/error_pages/"
+    ["uri_page":"Pages":private]=>
+    string(14) "litecoinwallet"
+    ["uri_realpath":"Pages":private]=>
+    string(22) "/litecoinwallet/create"
+    ["uri_path":"Pages":private]=>
+    array(1) {
+      [0]=>
+      string(6) "create"
+    }
+    ["uri_query":"Pages":private]=>
+    string(0) ""
+    ["suppress_html":"Pages":private]=>
+    bool(false)
+    ["layout":"Pages":private]=>
+    string(0) ""
+  }
+  ["_SESSION"]=>
+  &array(3) {
+    ["Language"]=>
+    string(2) "en"
+    ["Market"]=>
+    array(4) {
+      ["page"]=>
+      int(1)
+      ["perpage"]=>
+      int(15)
+      ["Layer"]=>
+      int(0)
+      ["searchSQL"]=>
+      string(273) "(SELECT VendorRank FROM user WHERE user.UserID = items.Vendor) >= 1 AND Active = 1 AND Blocked = 0 AND (SELECT BlockTransactions FROM user WHERE UserID = Vendor) = 0 AND (SELECT OnHoliday FROM user WHERE UserID = Vendor) = 0 ORDER BY IsPromoted DESC, Price ASC, ItemID DESC"
+    }
+    ["Captcha_Token"]=>
+    string(5) "3vNUf"
+  }
+  ["QR_BASEDIR"]=>
+  string(51) "/var/www/vhosts/market1304.de/httpdocs/libs/qrcode/"
+  ["Language_REALFILE"]=>
+  &string(63) "/var/www/vhosts/market1304.de/httpdocs/pages/litecoinwallet.php"
+}
